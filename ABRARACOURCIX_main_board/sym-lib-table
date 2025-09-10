@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GAUL_ABRARACOURCIX")(type "KiCad")(uri "${KIPRJMOD}/GAUL_ABRARACOURCIX.kicad_sym")(options "")(descr ""))
+)
