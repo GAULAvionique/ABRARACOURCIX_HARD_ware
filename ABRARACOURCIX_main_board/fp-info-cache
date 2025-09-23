@@ -1,4 +1,4 @@
-26669761145027793
+26657460461444347
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70553,12 +70553,12 @@ Yellow 5381 Series LED
 2
 2
 Librairie_footprint
-26.9X13X2.2_BOARD
-HM-01, HM-02, HM-09, HM-10 have same size and same pins. 26.9mm x 13mm x 2.2 mm
+AMASS_XT60PW-M
+
 
 0
-34
-34
+4
+4
 Librairie_footprint
 AZ1117CH_3_3TRG1
 
@@ -70581,12 +70581,26 @@ AZ1117CH-3.3TRG1
 4
 4
 Librairie_footprint
+BNO055-26.9X13X2.2_BOARD
+HM-01, HM-02, HM-09, HM-10 have same size and same pins. 26.9mm x 13mm x 2.2 mm
+
+0
+34
+34
+Librairie_footprint
 ICM-42688
 
 
 0
 14
 14
+Librairie_footprint
+LGA28R50P4X10_380X520X100
+
+
+0
+28
+28
 Librairie_footprint
 LQFP100_STM
 
@@ -70616,76 +70630,13 @@ LT1529CQ_5_PBF-DDPAK-5_Q
 6
 6
 Librairie_footprint
-XCVR_L76L-M33
+QFP50P2200X2200X160-144N
 
 
 0
-18
-18
-Library
-26.9X13X2.2_BOARD
-HM-01, HM-02, HM-09, HM-10 have same size and same pins. 26.9mm x 13mm x 2.2 mm
-
-0
-34
-34
-Library
-AZ1117CH_3_3TRG1
-
-AZ1117CH-3.3TRG1 
-0
-4
-4
-Library
-AZ1117CH_3_3TRG1-L
-
-AZ1117CH-3.3TRG1 
-0
-4
-4
-Library
-AZ1117CH_3_3TRG1-M
-
-AZ1117CH-3.3TRG1 
-0
-4
-4
-Library
-ICM-42688
-
-
-0
-14
-14
-Library
-LQFP100_STM
-
-STM32F469VGT6 
-0
-100
-100
-Library
-LQFP100_STM-L
-
-STM32F469VGT6 
-0
-100
-100
-Library
-LQFP100_STM-M
-
-STM32F469VGT6 
-0
-100
-100
-Library
-LT1529CQ_5_PBF-DDPAK-5_Q
-
-
-0
-6
-6
-Library
+144
+144
+Librairie_footprint
 XCVR_L76L-M33
 
 
