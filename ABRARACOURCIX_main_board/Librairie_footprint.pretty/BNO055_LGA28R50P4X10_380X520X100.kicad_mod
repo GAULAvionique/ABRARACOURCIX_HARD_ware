@@ -1,4 +1,4 @@
-(footprint "LGA28R50P4X10_380X520X100"
+(footprint "BNO055_LGA28R50P4X10_380X520X100"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "LGA28R50P4X10_380X520X100"
+	(property "Value" "BNO055_LGA28R50P4X10_380X520X100"
 		(at 13.192115 2.668465 0)
 		(layer "F.Fab")
 		(uuid "f60c91e4-1c44-4844-8981-0a9c86133292")

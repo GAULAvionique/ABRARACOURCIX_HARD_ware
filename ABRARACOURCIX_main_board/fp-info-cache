@@ -1,4 +1,4 @@
-26657460461444347
+26657461011646045
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70581,7 +70581,14 @@ AZ1117CH-3.3TRG1
 4
 4
 Librairie_footprint
-BNO055-26.9X13X2.2_BOARD
+BNO055_LGA28R50P4X10_380X520X100
+
+
+0
+28
+28
+Librairie_footprint
+HM10-26.9X13X2.2_BOARD
 HM-01, HM-02, HM-09, HM-10 have same size and same pins. 26.9mm x 13mm x 2.2 mm
 
 0
@@ -70594,13 +70601,6 @@ ICM-42688
 0
 14
 14
-Librairie_footprint
-LGA28R50P4X10_380X520X100
-
-
-0
-28
-28
 Librairie_footprint
 LQFP100_STM
 

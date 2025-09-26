@@ -4987,16 +4987,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 114.3) (xy 223.52 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6479b9b1-2cff-4a62-8a35-36aff788c571")
-	)
-	(wire
-		(pts
 			(xy 198.12 88.9) (xy 208.28 88.9)
 		)
 		(stroke
@@ -5893,7 +5883,7 @@
 	)
 	(global_label "I2C_SELECT"
 		(shape input)
-		(at 223.52 114.3 180)
+		(at 223.52 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5903,7 +5893,7 @@
 		)
 		(uuid "a58dad58-c067-4393-a316-19be4ef23b42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.7097 114.3 0)
+			(at 209.7097 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
