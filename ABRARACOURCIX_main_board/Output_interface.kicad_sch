@@ -1577,6 +1577,18 @@
 		)
 		(uuid 94a85a90-24d9-4aaa-af95-f2bf460b26da)
 	)
+	(rectangle
+		(start 59.69 31.75)
+		(end 116.84 130.81)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bf8df2d6-4b8b-448d-b20b-d5e6eedf0b30)
+	)
 	(text "Volume fixe (maximal) à cause\nde la résistance fixe de 50 Ohm"
 		(exclude_from_sim no)
 		(at 226.06 96.774 0)
@@ -1753,6 +1765,26 @@
 			(type default)
 		)
 		(uuid "25aec438-871c-4f92-96b8-c73b8f0e6666")
+	)
+	(wire
+		(pts
+			(xy 83.82 111.76) (xy 83.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae07e85-f53f-4d0d-96f0-c54fc9538f09")
+	)
+	(wire
+		(pts
+			(xy 81.28 111.76) (xy 83.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b04c757-5372-4b5b-849e-63f623537982")
 	)
 	(wire
 		(pts
@@ -1934,16 +1966,6 @@
 		)
 		(uuid "e9f50b67-c9b6-477e-a257-427c05a6a3d7")
 	)
-	(wire
-		(pts
-			(xy 83.82 111.76) (xy 83.82 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb15148d-bc73-42ee-9cf6-0106cc07b860")
-	)
 	(global_label "BUZZER_IB"
 		(shape input)
 		(at 212.09 80.01 180)
@@ -1990,7 +2012,7 @@
 	)
 	(global_label "PWM_Servo_1"
 		(shape input)
-		(at 83.82 111.76 180)
+		(at 81.28 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2000,7 +2022,7 @@
 		)
 		(uuid "6d4fd1e2-3945-49ca-bcd7-46ecd12886b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.3164 111.76 0)
+			(at 65.7764 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

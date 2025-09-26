@@ -247,10 +247,7 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": [
-      "GAUL_ABRARACOURCIX",
-      "GAUL_ABRARACOURCIX1"
-    ]
+    "pinned_symbol_libs": []
   },
   "meta": {
     "filename": "ABRARACOURCIX_main_board.kicad_pro",
