@@ -1,6 +1,7 @@
 {
   "board": {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     "design_settings": {
       "defaults": {},
       "diff_pair_dimensions": [],
@@ -30,6 +31,8 @@
   },
   "sheets": [],
 =======
+=======
+>>>>>>> Stashed changes
     "3dviewports": [],
     "design_settings": {
       "defaults": {
@@ -663,6 +666,9 @@
       "Root"
     ]
   ],
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   "text_variables": {}
 }
