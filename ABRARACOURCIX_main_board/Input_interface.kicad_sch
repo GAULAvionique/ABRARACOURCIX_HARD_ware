@@ -2286,6 +2286,16 @@
 		)
 		(uuid f5000051-8a4d-4126-a656-d6ca99cf6673)
 	)
+	(text "Nécessaire car nos \nHM-10 sont des clones"
+		(exclude_from_sim no)
+		(at 214.63 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04b809f8-6189-47cd-ab21-05e05c9759aa")
+	)
 	(text "Sensor RX\nSensor TX"
 		(exclude_from_sim no)
 		(at 47.244 101.854 0)
@@ -2756,6 +2766,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 41.91) (xy 170.18 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73aaa27b-df70-4634-9da1-601e03bd5a1c")
+	)
+	(wire
+		(pts
 			(xy 167.64 64.77) (xy 170.18 64.77)
 		)
 		(stroke
@@ -2853,6 +2873,16 @@
 			(type default)
 		)
 		(uuid "aafabd82-277a-4b85-b2ea-cab333176989")
+	)
+	(wire
+		(pts
+			(xy 157.48 39.37) (xy 170.18 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3181cd0-e57c-468c-9f99-e15979d549bd")
 	)
 	(wire
 		(pts
@@ -3088,6 +3118,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_CTS"
+		(shape input)
+		(at 157.48 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e06fa20-b882-48f7-9470-cb42044e2260")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.4234 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
