@@ -2709,6 +2709,169 @@
 			(embedded_fonts no)
 		)
 	)
+	(arc
+		(start 205.74 102.87)
+		(mid 206.7921 105.41)
+		(end 205.74 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5fc78100-8fa7-4cc9-85e8-c131352d75d0)
+	)
+	(text "Inversion RX/TX\nau MCU"
+		(exclude_from_sim no)
+		(at 215.9 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55355150-aebd-4eec-8895-0a1451dc180a")
+	)
+	(wire
+		(pts
+			(xy 190.5 99.06) (xy 194.31 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42f5c051-c548-4cb2-b458-91a3a5c71cf9")
+	)
+	(wire
+		(pts
+			(xy 193.04 43.18) (xy 190.5 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a55a27c-32d0-4b3d-8f15-b006b6e65111")
+	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 194.31 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2e41452-9399-4339-b9e4-62dd2551177e")
+	)
+	(global_label "UART2_BT_RX"
+		(shape input)
+		(at 190.5 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "255cdcb8-b83e-4bca-a032-530ff0967db1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.0037 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART2_BT_TX"
+		(shape input)
+		(at 190.5 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5446f3cc-c5ed-4afd-8b35-10a600679bdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.7013 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_CTS"
+		(shape input)
+		(at 194.31 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93e5d69a-baad-40c2-94f7-b8eccce56b96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3666 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RTS"
+		(shape input)
+		(at 194.31 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fa9cca4-82a0-4ffd-9e57-61a566c08579")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3666 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BT_Config{slash}Run"
+		(shape input)
+		(at 193.04 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5e336b4-6b3c-48f8-86d8-df3479916899")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.1764 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "GAUL_ABRARACOURCIX:STM32F429ZIT6")
 		(at 124.46 128.27 0)
