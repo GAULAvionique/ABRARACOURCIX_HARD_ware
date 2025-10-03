@@ -446,7 +446,6 @@
       "wire_dangling": "error"
     }
   },
-  "legacy": [],
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -610,14 +609,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-
-  "sheets": [
-    [
-      "e33bafcd-bd9d-4781-9ef9-21d042c07acb",
-      "Root"
-    ]
-  ],
   "sheets": [],
->>>>>>> Stashed changes
   "text_variables": {}
 }
