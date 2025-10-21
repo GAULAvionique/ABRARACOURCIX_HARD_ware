@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2025-09-23T01:14:56.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="RCkpk3GAneEoXKs4uFi8" version="23.1.5" type="device">
+<mxfile host="Electron" modified="2025-10-21T16:15:25.137Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="4Qo9oWw_v2Sl7t9euL8z" version="23.1.5" type="device">
   <diagram name="Page-1" id="vbcMVjURJgtJ42ZDk6ty">
-    <mxGraphModel dx="1877" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3172" dy="2298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -154,7 +154,7 @@
         <mxCell id="hm7Egg7z6qPXurAjoru_-7" value="xt60" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="pVkDnm4UJQp13vE4F_3l-16" vertex="1">
           <mxGeometry x="720" y="550" width="40" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="P69xZsoBurnfe6x9QFbA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="pVkDnm4UJQp13vE4F_3l-16" source="P69xZsoBurnfe6x9QFbA-1" target="pVkDnm4UJQp13vE4F_3l-12">
+        <mxCell id="P69xZsoBurnfe6x9QFbA-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="pVkDnm4UJQp13vE4F_3l-16" source="P69xZsoBurnfe6x9QFbA-1" target="pVkDnm4UJQp13vE4F_3l-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="240" y="510" />
@@ -162,7 +162,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="P69xZsoBurnfe6x9QFbA-1" value="IMU&lt;br&gt;BNO055&lt;br&gt;I2C 3v3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pVkDnm4UJQp13vE4F_3l-16">
+        <mxCell id="P69xZsoBurnfe6x9QFbA-1" value="IMU&lt;br&gt;BNO055&lt;br&gt;I2C 3v3" style="rounded=1;whiteSpace=wrap;html=1;" parent="pVkDnm4UJQp13vE4F_3l-16" vertex="1">
           <mxGeometry x="100" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3BUjcoI-ck8Lt89UXKEq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="pVkDnm4UJQp13vE4F_3l-4" target="3BUjcoI-ck8Lt89UXKEq-13" edge="1">
