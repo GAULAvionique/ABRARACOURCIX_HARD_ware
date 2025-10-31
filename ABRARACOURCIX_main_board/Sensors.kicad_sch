@@ -5,6 +5,113 @@
 	(uuid "1cb5224d-8237-4ab4-98a5-7cdda70b3e42")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -434,366 +541,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "GAUL_ABRARACOURCIX1:ICM-42688-P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -20.32 16.002 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "ICM-42688-P"
-				(at -20.32 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "1.2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.97mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "TDK InvenSense"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "ICM-42688-P_0_0"
-				(rectangle
-					(start -20.32 -17.78)
-					(end 20.32 15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 5.08 0)
-					(length 5.08)
-					(name "INT2/FSYNC/CLKIN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -25.4 0 0)
-					(length 5.08)
-					(name "AP_CS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input clock
-					(at -25.4 -2.54 0)
-					(length 5.08)
-					(name "AP_SCL/AP_SCLK"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -5.08 0)
-					(length 5.08)
-					(name "AP_SDA/AP_SDIO/AP_SDI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -25.4 -7.62 0)
-					(length 5.08)
-					(name "AP_SDO/AP_AD0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 12.7 180)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 10.16 180)
-					(length 5.08)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 25.4 5.08 180)
-					(length 5.08)
-					(name "INT1/INT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "RESV_2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "RESV_3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "RESV_10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "RESV_11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -10.16 180)
-					(length 5.08)
-					(name "RESV_7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 25.4 -15.24 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4330,6 +4077,12 @@
 		(uuid "3d1a7781-3e3b-40eb-9bd5-53707a652a5e")
 	)
 	(junction
+		(at 207.01 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44ca533e-e082-4dab-a016-e1a15461094d")
+	)
+	(junction
 		(at 64.77 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4340,6 +4093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d6656d5-0953-4c7a-ac2f-b0a33e589b95")
+	)
+	(junction
+		(at 207.01 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52afe083-f683-472b-baf3-fb8a2786444b")
 	)
 	(junction
 		(at 20.32 151.13)
@@ -4556,6 +4315,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff18dcb8-3104-43c4-91e3-4d5e65566f85")
+	)
+	(no_connect
+		(at 264.16 106.68)
+		(uuid "0bcdb9be-9288-4dd6-b611-386b0645f7cb")
 	)
 	(no_connect
 		(at 264.16 109.22)
@@ -4987,13 +4750,13 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 114.3) (xy 223.52 111.76)
+			(xy 207.01 151.13) (xy 207.01 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6479b9b1-2cff-4a62-8a35-36aff788c571")
+		(uuid "63f9cc44-a76c-438a-9071-d000157e1ed2")
 	)
 	(wire
 		(pts
@@ -5054,6 +4817,16 @@
 			(type default)
 		)
 		(uuid "6bfe6501-6a80-4d44-a79f-b78242e9c0f3")
+	)
+	(wire
+		(pts
+			(xy 207.01 149.86) (xy 208.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700154ae-68bf-4a71-9899-a13f47f8a6f5")
 	)
 	(wire
 		(pts
@@ -5167,6 +4940,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 147.32) (xy 208.28 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880d6451-ad2f-4cac-bf89-6fa79ca9a0dd")
+	)
+	(wire
+		(pts
 			(xy 266.7 87.63) (xy 266.7 88.9)
 		)
 		(stroke
@@ -5237,6 +5020,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 111.76) (xy 223.52 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "960d2782-e72f-4e8b-97ba-4512b5221451")
+	)
+	(wire
+		(pts
 			(xy 27.94 176.53) (xy 27.94 189.23)
 		)
 		(stroke
@@ -5264,6 +5057,16 @@
 			(type default)
 		)
 		(uuid "9774344b-684b-4bbf-aad4-722f0fe2561d")
+	)
+	(wire
+		(pts
+			(xy 201.93 147.32) (xy 207.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5b67f9-92b3-422e-b634-d18d93751a8f")
 	)
 	(wire
 		(pts
@@ -5497,6 +5300,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 149.86) (xy 207.01 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11a6577-04de-4bd2-86fc-1248202240f3")
+	)
+	(wire
+		(pts
 			(xy 208.28 88.9) (xy 212.09 88.9)
 		)
 		(stroke
@@ -5524,6 +5337,16 @@
 			(type default)
 		)
 		(uuid "d3dbd67f-f97e-4d2b-b0b6-a63599904e65")
+	)
+	(wire
+		(pts
+			(xy 207.01 146.05) (xy 207.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41dc39d-a671-4f22-bced-a88deafc93f7")
 	)
 	(wire
 		(pts
@@ -5717,7 +5540,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 208.28 149.86 180)
+		(at 201.93 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5727,7 +5550,7 @@
 		)
 		(uuid "2da85e28-fd03-4a39-89bd-ff77ec93be29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7872 149.86 0)
+			(at 195.4372 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,28 +5714,6 @@
 			)
 		)
 	)
-	(global_label "I2C_SELECT"
-		(shape input)
-		(at 223.52 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a58dad58-c067-4393-a316-19be4ef23b42")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.7097 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "XIN32"
 		(shape input)
 		(at 247.65 140.97 0)
@@ -5937,7 +5738,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 208.28 147.32 180)
+		(at 201.93 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5947,34 +5748,12 @@
 		)
 		(uuid "d1f978e3-11e4-4f76-9059-e5ab04c54fb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.7267 147.32 0)
+			(at 195.3767 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BNO_BL_IND"
-		(shape input)
-		(at 264.16 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d308b059-4137-4093-b21e-82dec709256e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5148 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8617,6 +8396,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 217.17 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaab253f-a20a-41ed-8f4b-b5105dceb6a3")
+		(property "Reference" "#PWR013"
+			(at 217.17 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "336ac8e2-0e8b-4198-a842-53eb61f74da5")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 24.13 34.29 90)
 		(unit 1)
@@ -8679,6 +8524,73 @@
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 146.05 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad34397f-9bed-43fe-a54d-aabdb457a9f5")
+		(property "Reference" "TP4"
+			(at 204.47 141.4779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 204.47 144.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ecf67c0-36b3-4725-8971-25ba41413a70")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -8819,151 +8731,6 @@
 		)
 	)
 	(symbol
-		(lib_id "GAUL_ABRARACOURCIX1:ICM-42688-P")
-		(at 256.54 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c1070443-f00d-49aa-8780-bc3e8f2e7ae6")
-		(property "Reference" "U2"
-			(at 256.54 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ICM-42688-P"
-			(at 256.54 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ICM-42688-P:PQFN50P300X250X97-14N"
-			(at 256.54 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 256.54 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.2"
-			(at 256.54 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 256.54 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.97mm"
-			(at 256.54 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "TDK InvenSense"
-			(at 256.54 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "d50a7655-ce21-4ed3-8a6c-2697af5085d2")
-		)
-		(pin "13"
-			(uuid "2d377139-4bdb-44bd-b395-211c056628fd")
-		)
-		(pin "5"
-			(uuid "1d9af61d-ceae-4cca-9904-9ba1ece8980f")
-		)
-		(pin "11"
-			(uuid "cada9d71-4aed-4464-99c5-602ce8c786ad")
-		)
-		(pin "9"
-			(uuid "2e24fef5-22bd-4caa-9691-65b1e0d67d11")
-		)
-		(pin "8"
-			(uuid "555ddeae-71a7-425a-8066-c655c17d5427")
-		)
-		(pin "2"
-			(uuid "af7aa7f5-3623-4752-a162-2904932b4916")
-		)
-		(pin "1"
-			(uuid "bd429ede-656f-411c-9100-05755879a220")
-		)
-		(pin "12"
-			(uuid "5e2f0d60-307e-4477-b3cc-ba2836610155")
-		)
-		(pin "14"
-			(uuid "60e19d6a-4358-49e3-98a1-fe4149cf5c53")
-		)
-		(pin "3"
-			(uuid "ed1e7b2c-a592-4513-8b0e-2156158bd322")
-		)
-		(pin "10"
-			(uuid "e2f3f64c-242c-4505-9caa-eac8fbbf8a85")
-		)
-		(pin "4"
-			(uuid "4a9bb902-5ce1-416b-b579-c0fb4baecf2e")
-		)
-		(pin "6"
-			(uuid "0130f6f3-4800-43f7-9423-e2f4be2dbc6a")
-		)
-		(instances
-			(project ""
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 208.28 92.71 0)
 		(unit 1)
@@ -9028,6 +8795,72 @@
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cebd1b20-1f19-4d36-a507-bf1398b89a5a")
+		(property "Reference" "TP5"
+			(at 204.47 155.7021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 204.47 153.1621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b198f76-b248-47e2-8188-044c6badca17")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
