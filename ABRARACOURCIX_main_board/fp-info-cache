@@ -1,4 +1,4 @@
-26655702439001953
+26668064418978261
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70553,12 +70553,12 @@ Yellow 5381 Series LED
 2
 2
 Librairie_footprint
-26.9X13X2.2_BOARD
-HM-01, HM-02, HM-09, HM-10 have same size and same pins. 26.9mm x 13mm x 2.2 mm
+AMASS_XT60PW-F
+
 
 0
-34
-34
+4
+4
 Librairie_footprint
 AMASS_XT60PW-M
 
@@ -70587,6 +70587,34 @@ AZ1117CH-3.3TRG1
 0
 4
 4
+Librairie_footprint
+BNO055_LGA28R50P4X10_380X520X100
+
+
+0
+28
+28
+Librairie_footprint
+Buck_breakout_Xl4015
+
+
+0
+4
+4
+Librairie_footprint
+Current_sens_SOIC127P600X175-8N
+
+
+0
+8
+8
+Librairie_footprint
+HM10-26.9X13X2.2_BOARD
+HM-01, HM-02, HM-09, HM-10 have same size and same pins. 26.9mm x 13mm x 2.2 mm
+
+0
+34
+34
 Librairie_footprint
 ICM-42688
 
@@ -70630,12 +70658,33 @@ QFP50P2200X2200X160-144N
 144
 144
 Librairie_footprint
+Relai_30A_T9GV1L14-5_TEC
+
+T9GV1L14-5 
+0
+5
+5
+Librairie_footprint
+SOIC127P599X175-8N
+
+
+0
+8
+8
+Librairie_footprint
 XCVR_L76L-M33
 
 
 0
 18
 18
+Librairie_footprint
+XTAL_ABS07-32.768KHZ-T
+
+
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

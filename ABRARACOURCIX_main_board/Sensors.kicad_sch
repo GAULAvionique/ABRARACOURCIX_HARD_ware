@@ -251,179 +251,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.143 2.54)
-					(end 1.143 -2.54)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.905 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -541,6 +368,211 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GAUL_ABRARACOURCIX:ABS07-32.768KHZ-T"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -5.0878 3.8159 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ABS07-32.768KHZ-T"
+				(at -5.0944 -5.0944 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ABS07-32.768KHZ-T:XTAL_ABS07-32.768KHZ-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "08.19.15"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Abracon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ABS07-32.768KHZ-T_0_0"
+				(polyline
+					(pts
+						(xy -2.3368 2.54) (xy -2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.54) (xy 1.397 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 2.54) (xy 1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 -2.54) (xy -1.397 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.3368 2.54) (xy 2.3368 -2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3910,17 +3942,6 @@
 		)
 		(uuid 2e0fbe07-97d9-4f55-bba2-3af037759d5f)
 	)
-	(text "Typical crystal\nvoltage amplitude:\n500-700mV"
-		(exclude_from_sim no)
-		(at 263.398 146.558 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "65d6e24d-7d6c-4138-a5b0-efc5fcebf66d")
-	)
 	(text "BNO055 IMU"
 		(exclude_from_sim no)
 		(at 195.834 74.93 0)
@@ -4069,6 +4090,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c0c2aaa-e32b-4ffb-906e-280b4a2530dc")
+	)
+	(junction
+		(at 247.65 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c9393e7-0783-4987-82f1-cfab25136016")
 	)
 	(junction
 		(at 27.94 104.14)
@@ -4275,7 +4302,7 @@
 		(uuid "d8921233-43e9-4c2b-b961-91247a7bd04c")
 	)
 	(junction
-		(at 234.95 151.13)
+		(at 234.95 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da4b9ed1-8f26-459a-a56c-1dd795025851")
@@ -4311,6 +4338,12 @@
 		(uuid "fdf3a9f6-602c-4797-8557-415c65680b8d")
 	)
 	(junction
+		(at 247.65 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fec3340d-077f-4b09-b1d0-b8716df7d13d")
+	)
+	(junction
 		(at 64.77 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4337,6 +4370,16 @@
 			(type default)
 		)
 		(uuid "0376fae9-3861-4b69-aae2-a134b85abc50")
+	)
+	(wire
+		(pts
+			(xy 247.65 140.97) (xy 247.65 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0594fe6a-e34d-4a9b-aba9-d2a10963a22d")
 	)
 	(wire
 		(pts
@@ -4380,7 +4423,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 151.13) (xy 238.76 151.13)
+			(xy 234.95 153.67) (xy 238.76 153.67)
 		)
 		(stroke
 			(width 0)
@@ -4600,7 +4643,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 151.13) (xy 247.65 151.13)
+			(xy 246.38 153.67) (xy 247.65 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5080,6 +5123,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 153.67) (xy 247.65 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1152e9f-8222-4283-9375-4524a0757d83")
+	)
+	(wire
+		(pts
 			(xy 118.11 119.38) (xy 118.11 123.19)
 		)
 		(stroke
@@ -5110,7 +5163,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 140.97) (xy 234.95 151.13)
+			(xy 234.95 140.97) (xy 234.95 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5190,16 +5243,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 151.13) (xy 247.65 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcefa50d-1a2c-4f88-befb-f9dea4b35da1")
-	)
-	(wire
-		(pts
 			(xy 27.94 45.72) (xy 27.94 57.15)
 		)
 		(stroke
@@ -5247,6 +5290,16 @@
 			(type default)
 		)
 		(uuid "c36c43cb-90fb-42ef-a464-bfdae63aa36e")
+	)
+	(wire
+		(pts
+			(xy 247.65 152.4) (xy 247.65 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82a4dfb-3a01-48bb-a530-0b135b0c7b8d")
 	)
 	(wire
 		(pts
@@ -5347,6 +5400,16 @@
 			(type default)
 		)
 		(uuid "d41dc39d-a671-4f22-bced-a88deafc93f7")
+	)
+	(wire
+		(pts
+			(xy 247.65 140.97) (xy 248.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d465beb4-cdc5-4edc-9b36-6f2d11979130")
 	)
 	(wire
 		(pts
@@ -5500,16 +5563,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 140.97) (xy 247.65 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc9d9f80-fb51-4ebd-9b04-0e7a65b34ebe")
-	)
-	(wire
-		(pts
 			(xy 208.28 96.52) (xy 217.17 96.52)
 		)
 		(stroke
@@ -5606,7 +5659,7 @@
 	)
 	(global_label "XOUT32"
 		(shape input)
-		(at 247.65 151.13 0)
+		(at 248.92 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5616,7 +5669,7 @@
 		)
 		(uuid "569c4de0-e8e2-4250-94f9-087cf843cd80")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.8923 151.13 0)
+			(at 259.1623 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,7 +5769,7 @@
 	)
 	(global_label "XIN32"
 		(shape input)
-		(at 247.65 140.97 0)
+		(at 248.92 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5726,7 +5779,7 @@
 		)
 		(uuid "b0c11cb5-3972-4d25-a2f0-d8c189b684be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.199 140.97 0)
+			(at 257.469 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5806,7 +5859,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 212.09 89.8652 0)
 			(effects
 				(font
@@ -5874,7 +5927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 44.7548 0)
 			(effects
 				(font
@@ -5944,7 +5997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "STM32F429ZIT6:QFP50P2200X2200X160-144N"
+		(property "Footprint" "Librairie_footprint:QFP50P2200X2200X160-144N"
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -6469,7 +6522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 238.76 141.9352 0)
 			(effects
 				(font
@@ -6537,7 +6590,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 150.1648 0)
 			(effects
 				(font
@@ -6737,7 +6790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 80.3148 0)
 			(effects
 				(font
@@ -6871,7 +6924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 138.7348 0)
 			(effects
 				(font
@@ -6939,7 +6992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 68.8848 0)
 			(effects
 				(font
@@ -7009,7 +7062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 222.5548 120.65 0)
 			(effects
 				(font
@@ -7143,7 +7196,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 35.56 56.1848 0)
 			(effects
 				(font
@@ -7187,7 +7240,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 151.13 0)
+		(at 234.95 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7196,7 +7249,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ea6c954-3a9e-4f95-bc3d-3ff3145de95e")
 		(property "Reference" "#PWR039"
-			(at 234.95 157.48 0)
+			(at 234.95 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7205,7 +7258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 156.21 0)
+			(at 234.95 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +7266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 151.13 0)
+			(at 234.95 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7222,7 +7275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 151.13 0)
+			(at 234.95 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +7284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 151.13 0)
+			(at 234.95 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7277,7 +7330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 35.56 33.3248 0)
 			(effects
 				(font
@@ -7411,7 +7464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 56.1848 0)
 			(effects
 				(font
@@ -7479,7 +7532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 103.1748 0)
 			(effects
 				(font
@@ -7745,7 +7798,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 212.09 148.082 90)
 			(effects
 				(font
@@ -7813,7 +7866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BNO055:LGA28R50P4X10_380X520X100"
+		(property "Footprint" "Librairie_footprint:BNO055_LGA28R50P4X10_380X520X100"
 			(at 243.84 101.6 0)
 			(effects
 				(font
@@ -7943,7 +7996,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 91.7448 0)
 			(effects
 				(font
@@ -8011,7 +8064,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 35.56 21.8948 0)
 			(effects
 				(font
@@ -8120,76 +8173,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 247.65 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "828b6c4b-b251-4778-be41-67fe82f606de")
-		(property "Reference" "Y1"
-			(at 251.46 144.7799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "32.768kHz"
-			(at 251.46 147.3199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 247.65 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3304e020-47bf-43cd-986d-c8a2afd196ee")
-		)
-		(pin "2"
-			(uuid "9b5efbad-5ae5-4c96-89a8-8ec842ed9396")
-		)
-		(instances
-			(project ""
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 198.12 93.98 0)
 		(unit 1)
@@ -8217,7 +8200,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 196.342 93.98 90)
 			(effects
 				(font
@@ -8285,7 +8268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 21.8948 0)
 			(effects
 				(font
@@ -8353,7 +8336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 127.3048 0)
 			(effects
 				(font
@@ -8487,7 +8470,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 33.3248 0)
 			(effects
 				(font
@@ -8557,7 +8540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 201.93 146.05 0)
 			(effects
 				(font
@@ -8688,7 +8671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 175.5648 0)
 			(effects
 				(font
@@ -8731,6 +8714,117 @@
 		)
 	)
 	(symbol
+		(lib_id "GAUL_ABRARACOURCIX:ABS07-32.768KHZ-T")
+		(at 247.65 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc2e3820-d364-4f30-867f-7121a93aacdb")
+		(property "Reference" "Y2"
+			(at 251.46 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ABS07-32.768KHZ-T"
+			(at 251.46 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Librairie_footprint:XTAL_ABS07-32.768KHZ-T"
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "08.19.15"
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.9 mm"
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Abracon"
+			(at 247.65 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49948b38-0a8a-42e6-a3d6-009a20af3157")
+		)
+		(pin "1"
+			(uuid "32c3da7f-af1d-4d8b-9d29-9c290df74a93")
+		)
+		(instances
+			(project ""
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 208.28 92.71 0)
 		(unit 1)
@@ -8758,7 +8852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 206.502 92.71 90)
 			(effects
 				(font
@@ -8827,7 +8921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
 			(at 201.93 151.13 0)
 			(effects
 				(font
@@ -9025,7 +9119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 162.8648 0)
 			(effects
 				(font
@@ -9093,7 +9187,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 115.8748 0)
 			(effects
 				(font
@@ -9137,7 +9231,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 242.57 151.13 90)
+		(at 242.57 153.67 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9146,7 +9240,7 @@
 		(dnp no)
 		(uuid "e993cf11-cbe7-4946-add5-3d54221f4053")
 		(property "Reference" "C25"
-			(at 242.57 158.75 90)
+			(at 242.57 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9154,15 +9248,15 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 242.57 156.21 90)
+			(at 242.57 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 246.38 152.0952 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 246.38 154.6352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9171,7 +9265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 151.13 0)
+			(at 242.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9180,7 +9274,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 242.57 151.13 0)
+			(at 242.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +9323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 27.94 188.2648 0)
 			(effects
 				(font
@@ -9297,7 +9391,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 35.56 44.7548 0)
 			(effects
 				(font
@@ -9365,7 +9459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 212.09 149.098 90)
 			(effects
 				(font
