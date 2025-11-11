@@ -1,0 +1,86 @@
+(footprint "MTA_100_2pos"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.5 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e317fa64-36d8-4cff-8bb4-54d5c939c86d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MTA_100_2pos"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cb0bd4f8-348c-4c7a-b2ca-c54885eaba5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a89d5b70-c8bc-495d-a936-ead7f836acc5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5133b07a-ffbc-4d4c-b6d5-a5f6dac858ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.5 -5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5a51480e-6771-4ccf-b26a-ec6892dc1073")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f043f277-d97c-4a12-b609-f1145bcd657c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a3ca1cc-a230-4a36-a0a6-481fe19a81f7")
+	)
+	(embedded_fonts no)
+)

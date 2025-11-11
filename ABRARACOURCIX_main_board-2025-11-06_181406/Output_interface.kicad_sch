@@ -3052,7 +3052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "XT60PW-F:AMASS_XT60PW-F"
+		(property "Footprint" "Librairie_footprint:AMASS_XT60PW-F"
 			(at 81.28 148.59 0)
 			(effects
 				(font
