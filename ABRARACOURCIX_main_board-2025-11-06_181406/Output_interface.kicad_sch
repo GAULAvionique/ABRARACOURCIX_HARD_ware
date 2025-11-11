@@ -3597,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Librairie_footprint:CAP_R533W520050P0K_KEM"
 			(at 45.4152 85.09 0)
 			(effects
 				(font

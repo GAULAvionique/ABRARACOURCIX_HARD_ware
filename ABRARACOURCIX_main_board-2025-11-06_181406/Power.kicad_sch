@@ -752,8 +752,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q6"
+				(at 5.08 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -761,8 +761,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NIGBT_CEG"
-				(at 5.08 -1.27 0)
+			(property "Value" "IKD15N60R"
+				(at 5.08 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -770,8 +770,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+				(at 3.048 12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -779,8 +779,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/60/49/infineon-ikd15n60r-ds-en.pdf?fileId=db3a30433c5c92fb013c5e03026003b2"
+				(at -0.508 12.446 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -789,7 +789,16 @@
 				)
 			)
 			(property "Description" "N-IGBT transistor, collector/emitter/gate"
-				(at 0 0 0)
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.ca/en/products/detail/infineon-technologies/IKD15N60RATMA1/6131387"
+				(at 0.508 11.938 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -938,7 +947,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -956,7 +965,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -974,7 +983,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2166,23 +2175,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+			(property "Reference" "Q3"
+				(at 5.08 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "NPN"
-				(at -2.54 5.08 0)
+			(property "Value" "NPN-DSS20201L-7"
+				(at -17.272 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 63.5 0 0)
 				(effects
 					(font
@@ -2191,7 +2202,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31605.pdf"
 				(at 63.5 0 0)
 				(effects
 					(font
@@ -2228,6 +2239,15 @@
 				)
 			)
 			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.ca/en/products/detail/diodes-incorporated/DSS20201L-7/2044515"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2353,7 +2373,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2371,7 +2391,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2389,7 +2409,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2410,26 +2430,24 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q2"
+				(at 8.89 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "PMOS"
-				(at 5.08 -1.27 0)
+			(property "Value" "NTR4101PT1G"
+				(at 6.35 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 9.398 14.478 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2437,7 +2455,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/NTR4101PT1G/687096?s=N4IgTCBcDaIHIBUBKAWAjABjQBQWg4gPIDKAwggLRwAiIAugL5A"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -2447,7 +2465,7 @@
 				)
 			)
 			(property "Description" "P-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
+				(at 4.572 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2475,6 +2493,15 @@
 			)
 			(property "Sim.Pins" "1=D 2=G 3=S"
 				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "NTR4101PT1GOSCT-ND"
+				(at 6.096 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2669,7 +2696,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2687,7 +2714,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2705,7 +2732,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2726,23 +2753,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.54 7.62 0)
+			(property "Reference" "Q5"
+				(at 5.08 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "PNP"
-				(at -2.54 5.08 0)
+			(property "Value" "DSS20200L-7-PNP"
+				(at 5.08 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 				(at 35.56 0 0)
 				(effects
 					(font
@@ -2751,7 +2780,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31604.pdf"
 				(at 35.56 0 0)
 				(effects
 					(font
@@ -2788,6 +2817,15 @@
 				)
 			)
 			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Digikey" "https://www.digikey.ca/en/products/detail/diodes-incorporated/DSS20200L-7/2044514"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2889,7 +2927,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2907,7 +2945,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2925,7 +2963,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3302,7 +3340,7 @@
 	)
 	(text "IGBT used as high current switch\nOff by default with p-channel mosfet\n(if Motor_switch signal is low or \n5V goes down, no current goes through IGBT)"
 		(exclude_from_sim no)
-		(at 185.928 90.932 0)
+		(at 207.772 71.882 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5268,7 +5306,7 @@
 		)
 	)
 	(image
-		(at 397.51 123.19)
+		(at 386.08 107.95)
 		(uuid "4c0ab51c-b118-481e-ae6a-a92a295abcc6")
 		(data "iVBORw0KGgoAAAANSUhEUgAACAAAAAKuCAIAAAC6o2u3AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOzdd5BlV3Uv/u9OJ9zUt3NO05Nz1sxImpFQTkggiWTsH8akBwbbQGE/v4eNqefAM8Y2trExGDBY"
@@ -12277,7 +12315,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 204.47 43.18 0)
+			(at 206.502 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12286,7 +12324,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/60/49/infineon-ikd15n60r-ds-en.pdf?fileId=db3a30433c5c92fb013c5e03026003b2"
-			(at 209.55 45.72 0)
+			(at 210.058 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12295,7 +12333,7 @@
 			)
 		)
 		(property "Description" "N-IGBT transistor, collector/emitter/gate"
-			(at 209.55 45.72 0)
+			(at 209.55 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +12342,7 @@
 			)
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/infineon-technologies/IKD15N60RATMA1/6131387"
-			(at 209.55 45.72 0)
+			(at 209.042 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12312,13 +12350,13 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
+		(pin "C"
 			(uuid "7d117a00-d8a5-4711-a1c6-678281b2ec59")
 		)
-		(pin "2"
+		(pin "G"
 			(uuid "6016aa52-9270-4634-af45-39404075fb27")
 		)
-		(pin "1"
+		(pin "E"
 			(uuid "90022137-8928-4e53-9069-e7a47ea65f9f")
 		)
 		(instances
@@ -12558,7 +12596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 262.89 52.578 90)
 			(effects
 				(font
@@ -12959,7 +12997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 226.822 52.07 90)
 			(effects
 				(font
@@ -14733,7 +14771,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 139.7 55.88 0)
+			(at 127.762 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14751,7 +14789,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 142.24 60.96 0)
+			(at 129.54 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14787,7 +14825,7 @@
 			)
 		)
 		(property "Digikey" "NTR4101PT1GOSCT-ND"
-			(at 142.24 60.96 0)
+			(at 128.27 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14795,13 +14833,13 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
+		(pin "D"
 			(uuid "9f45d96d-759b-4d48-a71b-9f57c2586613")
 		)
-		(pin "3"
+		(pin "G"
 			(uuid "2f83bc90-3de3-4d14-9d52-a132dd477e5a")
 		)
-		(pin "2"
+		(pin "S"
 			(uuid "76e7d1e8-8e78-4cba-87cf-c1fca5b86b43")
 		)
 		(instances
@@ -14841,7 +14879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 247.142 36.83 90)
 			(effects
 				(font
@@ -15120,8 +15158,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
-			(at 246.38 52.0699 0)
+		(property "Value" "NPN-DSS20201L-7"
+			(at 268.732 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15129,7 +15167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 187.96 50.8 0)
 			(effects
 				(font
@@ -15138,7 +15176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31605.pdf"
 			(at 187.96 50.8 0)
 			(effects
 				(font
@@ -15183,13 +15221,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/diodes-incorporated/DSS20201L-7/2044515"
+			(at 251.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
 			(uuid "64398b25-dd44-4f52-85ad-2b809a667f04")
 		)
-		(pin "1"
+		(pin "E"
 			(uuid "ddbdab0c-b3c9-4826-818e-2303303d80c7")
 		)
-		(pin "3"
+		(pin "B"
 			(uuid "f0ca715f-3f83-461d-a012-b18f348a0602")
 		)
 		(instances
@@ -15362,7 +15409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 242.57 42.418 90)
 			(effects
 				(font
@@ -16355,7 +16402,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PNP"
+		(property "Value" "DSS20200L-7-PNP"
 			(at 226.06 39.3701 0)
 			(effects
 				(font
@@ -16364,7 +16411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 195.58 40.64 0)
 			(effects
 				(font
@@ -16373,7 +16420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds31604.pdf"
 			(at 195.58 40.64 0)
 			(effects
 				(font
@@ -16418,13 +16465,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/diodes-incorporated/DSS20200L-7/2044514"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
 			(uuid "74202b9f-71b3-488f-ae65-1aaef7938290")
 		)
-		(pin "1"
+		(pin "E"
 			(uuid "cace44e8-f32d-47e8-a9c2-4d0ab3e22fce")
 		)
-		(pin "3"
+		(pin "B"
 			(uuid "258445dd-2aa1-4355-b486-28980f31f9df")
 		)
 		(instances
