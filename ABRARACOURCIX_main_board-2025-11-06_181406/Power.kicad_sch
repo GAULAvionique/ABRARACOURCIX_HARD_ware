@@ -3455,7 +3455,7 @@
 	)
 	(text "Max 20A DC"
 		(exclude_from_sim no)
-		(at 58.166 38.608 0)
+		(at 58.166 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3604,6 +3604,12 @@
 		(uuid "69d0325f-f383-4102-9b35-dcf5fe1a4553")
 	)
 	(junction
+		(at 49.53 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77721ae8-703a-4611-8071-660b0f914a4e")
+	)
+	(junction
 		(at 73.66 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3676,7 +3682,7 @@
 		(uuid "f6ffd92f-d6d1-45df-a9f2-36bd2c8b1eb8")
 	)
 	(no_connect
-		(at 130.81 147.32)
+		(at 123.19 144.78)
 		(uuid "33edb794-013e-42e5-908c-242e69785f77")
 	)
 	(no_connect
@@ -3684,11 +3690,11 @@
 		(uuid "6b5c73f8-1429-48b9-a3b0-2a7dc051253e")
 	)
 	(no_connect
-		(at 146.05 149.86)
+		(at 138.43 147.32)
 		(uuid "9280e795-e37d-46a8-951d-511d4b65f576")
 	)
 	(no_connect
-		(at 130.81 152.4)
+		(at 123.19 149.86)
 		(uuid "b23976eb-d7c2-4a5d-887d-ad0d810dd0f4")
 	)
 	(wire
@@ -4003,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 35.56) (xy 57.15 35.56)
+			(xy 48.26 35.56) (xy 49.53 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4243,6 +4249,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 35.56) (xy 57.15 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca3ee2f-5526-411c-a819-820aea287de7")
+	)
+	(wire
+		(pts
 			(xy 214.63 143.51) (xy 217.17 143.51)
 		)
 		(stroke
@@ -4330,6 +4346,16 @@
 			(type default)
 		)
 		(uuid "b55be1a7-c61e-458a-b350-1de13a828791")
+	)
+	(wire
+		(pts
+			(xy 49.53 38.1) (xy 49.53 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c216ff04-da85-44aa-ac26-b75529c49460")
 	)
 	(wire
 		(pts
@@ -11822,6 +11848,16 @@
 			"GgD/H8aY+pl6he6vAAAAAElFTkSuQmCC"
 		)
 	)
+	(label "20A_pre_switch"
+		(at 49.53 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fc0d6e6-6bf6-453c-abc1-4eb9a8a7c59d")
+	)
 	(global_label "VBAT_sense"
 		(shape input)
 		(at 48.26 138.43 180)
@@ -11950,8 +11986,8 @@
 				)
 			)
 		)
-		(property "Value" "LMC6482"
-			(at 123.19 123.19 0)
+		(property "Value" "LMC6482AIMX/NOPB"
+			(at 126.746 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11976,7 +12012,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
+		(property "Description" "IC CMOS 2 CIRCUIT 8SOIC"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/LMC6482AIMX-NOPB/3440139"
+			(at 123.19 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LMC6482AIMX/NOPBCT-ND"
 			(at 123.19 115.57 0)
 			(effects
 				(font
@@ -12566,6 +12620,112 @@
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
 					(reference "#PWR02")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMC6482")
+		(at 73.66 113.03 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1027d3b8-66b9-4092-93f5-04ecb78a4fcf")
+		(property "Reference" "U4"
+			(at 72.644 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "LMC6482AIMX/NOPB"
+			(at 72.644 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Librairie_footprint:SOIC127P599X175-8N"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CMOS 2 CIRCUIT 8SOIC"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/LMC6482AIMX-NOPB/3440139"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LMC6482AIMX/NOPBCT-ND"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "96afdb8e-4532-4872-9c32-93354999e8ec")
+		)
+		(pin "5"
+			(uuid "ebfba54b-80f9-40c6-b5bc-3e4f7ad3940f")
+		)
+		(pin "2"
+			(uuid "a7ef9d3b-09f3-4eb4-9cd5-4152bc3aefc7")
+		)
+		(pin "6"
+			(uuid "79357090-a0b1-4258-bc37-d7df116db0a0")
+		)
+		(pin "3"
+			(uuid "8d40cf67-2cff-4218-82ea-f7a14627e7a0")
+		)
+		(pin "7"
+			(uuid "07abb248-9436-4e3b-9f61-8c007ab200dd")
+		)
+		(pin "1"
+			(uuid "43ae0ab8-e612-4fed-a934-062919b9e6f2")
+		)
+		(pin "4"
+			(uuid "5dc8ae8c-353f-4a02-9bd9-99808dddd60c")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
+					(reference "U4")
+					(unit 3)
 				)
 			)
 		)
@@ -13583,6 +13743,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LMC6482")
+		(at 73.66 113.03 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4de95f9a-db76-4249-952a-444433de08c5")
+		(property "Reference" "U4"
+			(at 74.676 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMC6482AIMX/NOPB"
+			(at 76.454 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Librairie_footprint:SOIC127P599X175-8N"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CMOS 2 CIRCUIT 8SOIC"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/LMC6482AIMX-NOPB/3440139"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LMC6482AIMX/NOPBCT-ND"
+			(at 73.66 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "42fdc43b-51e9-4d3d-a4a0-27552bcd1f8c")
+		)
+		(pin "5"
+			(uuid "7bca0966-49e5-4fc0-b1ed-35f476e3a744")
+		)
+		(pin "2"
+			(uuid "a7ef9d3b-09f3-4eb4-9cd5-4152bc3aefc8")
+		)
+		(pin "6"
+			(uuid "c3ee42c0-f739-4557-a7eb-373ff5a8b528")
+		)
+		(pin "3"
+			(uuid "8d40cf67-2cff-4218-82ea-f7a14627e7a1")
+		)
+		(pin "7"
+			(uuid "683c379a-ab8d-42ac-acc8-bba4200d28be")
+		)
+		(pin "1"
+			(uuid "43ae0ab8-e612-4fed-a934-062919b9e6f3")
+		)
+		(pin "4"
+			(uuid "427a706f-a686-4297-856c-6e9bc739de87")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 77.47 0)
 		(unit 1)
@@ -14387,91 +14651,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:LMC6482")
-		(at 73.66 113.03 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6c58d413-582f-46d9-bc65-f8d68e278514")
-		(property "Reference" "U6"
-			(at 75.184 103.124 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMC6482"
-			(at 77.216 105.156 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Librairie_footprint:SOIC127P599X175-8N"
-			(at 73.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
-			(at 73.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
-			(at 73.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b51b2e00-2a7e-4f8c-99a7-e27a90a8df0f")
-		)
-		(pin "6"
-			(uuid "ae8171cc-911b-4e33-8f27-045fac90d3a4")
-		)
-		(pin "3"
-			(uuid "fa6a6567-e6f6-417e-accf-c400eebd14e2")
-		)
-		(pin "5"
-			(uuid "1b3dba57-4221-4c7a-9cf0-0fb2a43c47be")
-		)
-		(pin "7"
-			(uuid "71b1f979-40e1-4594-9ffc-d53626800386")
-		)
-		(pin "2"
-			(uuid "eacbb65e-888a-49e6-a1be-0f3152dd2531")
-		)
-		(pin "8"
-			(uuid "a18b1f6a-81e3-4221-81a1-4cf830f7770f")
-		)
-		(pin "4"
-			(uuid "9ed2c2b7-5627-4a41-8c2d-a7380651f61f")
-		)
-		(instances
-			(project ""
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
-					(reference "U6")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 232.41 144.78 0)
 		(unit 1)
@@ -14601,6 +14780,110 @@
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LMC6482")
+		(at 130.81 147.32 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7976c7b5-700d-4ce7-9a33-6336e4ce0ac8")
+		(property "Reference" "U4"
+			(at 130.81 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMC6482AIMX/NOPB"
+			(at 134.366 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Librairie_footprint:SOIC127P599X175-8N"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC CMOS 2 CIRCUIT 8SOIC"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/LMC6482AIMX-NOPB/3440139"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LMC6482AIMX/NOPBCT-ND"
+			(at 130.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "42fdc43b-51e9-4d3d-a4a0-27552bcd1f8a")
+		)
+		(pin "5"
+			(uuid "ebfba54b-80f9-40c6-b5bc-3e4f7ad3940e")
+		)
+		(pin "2"
+			(uuid "58e74826-b79c-4519-8863-b29a1e6d4de2")
+		)
+		(pin "6"
+			(uuid "79357090-a0b1-4258-bc37-d7df116db09f")
+		)
+		(pin "3"
+			(uuid "0e4982a3-3a38-41c7-9316-a4e8137dbd6d")
+		)
+		(pin "7"
+			(uuid "07abb248-9436-4e3b-9f61-8c007ab200dc")
+		)
+		(pin "1"
+			(uuid "49d4004d-dfca-485f-a3fc-a471005e6e36")
+		)
+		(pin "4"
+			(uuid "427a706f-a686-4297-856c-6e9bc739de85")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14940,8 +15223,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LMC6482"
-			(at 88.392 133.858 0)
+		(property "Value" "LMC6482AIMX/NOPB"
+			(at 87.884 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14967,7 +15250,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
+		(property "Description" "IC CMOS 2 CIRCUIT 8SOIC"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/LMC6482AIMX-NOPB/3440139"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LMC6482AIMX/NOPBCT-ND"
 			(at 88.9 140.97 0)
 			(effects
 				(font
@@ -15446,92 +15747,6 @@
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LMC6482")
-		(at 138.43 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa6170ab-a287-4042-b6ce-81829442abf3")
-		(property "Reference" "U6"
-			(at 138.43 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LMC6482"
-			(at 138.43 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Librairie_footprint:SOIC127P599X175-8N"
-			(at 138.43 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
-			(at 138.43 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
-			(at 138.43 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b51b2e00-2a7e-4f8c-99a7-e27a90a8df10")
-		)
-		(pin "6"
-			(uuid "ae8171cc-911b-4e33-8f27-045fac90d3a5")
-		)
-		(pin "3"
-			(uuid "fa6a6567-e6f6-417e-accf-c400eebd14e3")
-		)
-		(pin "5"
-			(uuid "1b3dba57-4221-4c7a-9cf0-0fb2a43c47bf")
-		)
-		(pin "7"
-			(uuid "71b1f979-40e1-4594-9ffc-d53626800387")
-		)
-		(pin "2"
-			(uuid "eacbb65e-888a-49e6-a1be-0f3152dd2532")
-		)
-		(pin "8"
-			(uuid "a18b1f6a-81e3-4221-81a1-4cf830f77710")
-		)
-		(pin "4"
-			(uuid "9ed2c2b7-5627-4a41-8c2d-a7380651f620")
-		)
-		(instances
-			(project ""
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
-					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -16642,7 +16857,7 @@
 				)
 			)
 		)
-		(property "Value" "LMC6482"
+		(property "Value" "LMC6482AIMX/NOPB"
 			(at 91.694 136.144 0)
 			(effects
 				(font
@@ -16669,7 +16884,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
+		(property "Description" "IC CMOS 2 CIRCUIT 8SOIC"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/texas-instruments/LMC6482AIMX-NOPB/3440139"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "LMC6482AIMX/NOPBCT-ND"
 			(at 88.9 140.97 0)
 			(effects
 				(font
@@ -16906,96 +17139,6 @@
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
 					(reference "#PWR052")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:LMC6482")
-		(at 73.66 113.03 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef0a0157-f59d-4961-86b1-4c7549569d08")
-		(property "Reference" "U6"
-			(at 72.39 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "LMC6482"
-			(at 72.39 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Librairie_footprint:SOIC127P599X175-8N"
-			(at 73.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lmc6482.pdf"
-			(at 73.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual CMOS Rail-to-Rail Input and Output Operational Amplifier, DIP-8/SOIC-8, SSOP-8"
-			(at 73.66 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b51b2e00-2a7e-4f8c-99a7-e27a90a8df11")
-		)
-		(pin "6"
-			(uuid "ae8171cc-911b-4e33-8f27-045fac90d3a6")
-		)
-		(pin "3"
-			(uuid "fa6a6567-e6f6-417e-accf-c400eebd14e4")
-		)
-		(pin "5"
-			(uuid "1b3dba57-4221-4c7a-9cf0-0fb2a43c47c0")
-		)
-		(pin "7"
-			(uuid "71b1f979-40e1-4594-9ffc-d53626800388")
-		)
-		(pin "2"
-			(uuid "eacbb65e-888a-49e6-a1be-0f3152dd2533")
-		)
-		(pin "8"
-			(uuid "a18b1f6a-81e3-4221-81a1-4cf830f77711")
-		)
-		(pin "4"
-			(uuid "9ed2c2b7-5627-4a41-8c2d-a7380651f621")
-		)
-		(instances
-			(project ""
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
-					(reference "U6")
-					(unit 3)
 				)
 			)
 		)

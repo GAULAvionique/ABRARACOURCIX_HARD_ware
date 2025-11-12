@@ -2781,8 +2781,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
-		(at 53.34 100.33 0)
-		(mirror y)
+		(at 53.34 102.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2790,7 +2789,7 @@
 		(dnp no)
 		(uuid "ee7e36f7-0313-45ac-b95c-ba495b3bc4b1")
 		(property "Reference" "J4"
-			(at 52.07 96.774 0)
+			(at 52.07 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2799,7 +2798,7 @@
 			)
 		)
 		(property "Value" "Conn_01x06_Socket"
-			(at 52.578 94.488 0)
+			(at 52.578 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2808,7 +2807,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
-			(at 53.34 100.33 0)
+			(at 53.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2817,7 +2816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 100.33 0)
+			(at 53.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2826,7 +2825,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 53.34 100.33 0)
+			(at 53.34 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2852,7 @@
 			(uuid "cc0e5bb5-877b-469a-a7c3-ae32ea57d002")
 		)
 		(instances
-			(project ""
+			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
 					(reference "J4")
 					(unit 1)

@@ -3301,6 +3301,12 @@
 		(uuid "50820a32-ac56-4e56-b1bf-0e3508d151bc")
 	)
 	(junction
+		(at 39.37 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "606a72d9-c713-4fc2-97b6-9a7669b94e23")
+	)
+	(junction
 		(at 191.77 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3698,6 +3704,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 87.63) (xy 54.61 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175e3ae8-15eb-44cb-9f0d-7790e45e60b1")
+	)
+	(wire
+		(pts
 			(xy 66.04 118.11) (xy 68.58 118.11)
 		)
 		(stroke
@@ -3848,6 +3864,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 113.03) (xy 68.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de69a92-6d94-4154-955e-d2d26ca08dc3")
+	)
+	(wire
+		(pts
 			(xy 68.58 115.57) (xy 72.39 115.57)
 		)
 		(stroke
@@ -3855,6 +3881,16 @@
 			(type default)
 		)
 		(uuid "6b963b0e-d6b4-4d8a-8d85-3ec633d9cbac")
+	)
+	(wire
+		(pts
+			(xy 39.37 91.44) (xy 39.37 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb1147c-ff60-46f7-9194-6764112e9295")
 	)
 	(wire
 		(pts
@@ -5061,6 +5097,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 39.37 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36d4bf87-2b34-4b15-ae38-469b1d79cc84")
+		(property "Reference" "#PWR062"
+			(at 39.37 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8483cc1b-48fd-4253-bfd3-4ec98ecaf420")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 130.81 129.54 0)
 		(unit 1)
@@ -5668,6 +5770,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 54.61 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d7bd9c4-2408-41e7-af44-a6aa04f2452a")
+		(property "Reference" "GND2"
+			(at 57.15 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.15 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 54.61 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bfc91f8-f6df-4002-9bb0-91bf886146af")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146"
+					(reference "GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 187.96 35.56 90)
 		(unit 1)
@@ -5737,35 +5907,34 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 68.58 115.57 0)
+		(at 68.58 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a9aa12db-5fb0-4a44-bac0-a08c2385ebd7")
-		(property "Reference" "TP6"
-			(at 66.04 110.9979 0)
+		(property "Reference" "RX1"
+			(at 60.452 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 66.04 113.5379 0)
+			(at 57.912 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
-			(at 63.5 115.57 0)
+			(at 63.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +5943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 115.57 0)
+			(at 63.5 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5783,7 +5952,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 68.58 115.57 0)
+			(at 68.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5797,7 +5966,7 @@
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146"
-					(reference "TP6")
+					(reference "RX1")
 					(unit 1)
 				)
 			)
@@ -5866,6 +6035,74 @@
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 39.37 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d21371-b1e7-436d-8f13-cc86dd3e3440")
+		(property "Reference" "GND1"
+			(at 41.91 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 41.91 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 34.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 39.37 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94b5de3b-a58a-4970-b822-bfef3b938a42")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146"
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -5946,10 +6183,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b5d4f980-6740-4822-8ee1-e65bfa1010dc")
-		(property "Reference" "TP7"
-			(at 66.04 120.1419 0)
+		(property "Reference" "TX1"
+			(at 64.008 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +6235,7 @@
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146"
-					(reference "TP7")
+					(reference "TX1")
 					(unit 1)
 				)
 			)

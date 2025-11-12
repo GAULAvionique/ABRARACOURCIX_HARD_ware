@@ -1,4 +1,4 @@
-26673392800764387
+26675155710391315
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70601,6 +70601,13 @@ Buck_breakout_Xl4015
 0
 4
 4
+Librairie_footprint
+CAP_MU_15750_RUB-L
+
+25MU106MD15750 
+0
+2
+2
 Librairie_footprint
 CAP_R533W520050P0K_KEM
 
