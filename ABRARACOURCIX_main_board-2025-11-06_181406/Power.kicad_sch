@@ -3556,12 +3556,6 @@
 		(uuid "2ecd2703-ab85-4357-84b6-ff458be19f09")
 	)
 	(junction
-		(at 161.29 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35a9cc4a-2f44-4363-9af4-36ed33fb91d0")
-	)
-	(junction
 		(at 133.35 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3584,6 +3578,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e23330b-80e3-4b9b-93ca-f4a05e03a9cd")
+	)
+	(junction
+		(at 62.23 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e82c315-dade-4d5d-9a9e-01c815d1bcd8")
 	)
 	(junction
 		(at 259.08 109.22)
@@ -3709,7 +3709,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 35.56) (xy 72.39 35.56)
+			(xy 59.69 35.56) (xy 62.23 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3746,6 +3746,16 @@
 			(type default)
 		)
 		(uuid "19950b4c-6fbc-402e-8b07-f6baa08bde9e")
+	)
+	(wire
+		(pts
+			(xy 62.23 34.29) (xy 62.23 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3f5d1e-4fad-428f-a91f-e7279518c767")
 	)
 	(wire
 		(pts
@@ -3879,16 +3889,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 58.42) (xy 170.18 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b84ddd6-fef4-437f-a414-98e4410030d9")
-	)
-	(wire
-		(pts
 			(xy 207.01 33.02) (xy 207.01 40.64)
 		)
 		(stroke
@@ -3946,6 +3946,16 @@
 			(type default)
 		)
 		(uuid "542df5c2-ddd4-4ae5-be39-cc5f3a051935")
+	)
+	(wire
+		(pts
+			(xy 62.23 35.56) (xy 72.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544227c2-cab9-4df6-9630-f89a2d46884c")
 	)
 	(wire
 		(pts
@@ -4199,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 58.42) (xy 161.29 58.42)
+			(xy 149.86 58.42) (xy 170.18 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4306,16 +4316,6 @@
 			(type default)
 		)
 		(uuid "ae7a028a-a863-4e14-b187-604afee62b7f")
-	)
-	(wire
-		(pts
-			(xy 161.29 52.07) (xy 161.29 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b11df3b9-6fb9-44b7-ae90-9be22fe204cd")
 	)
 	(wire
 		(pts
@@ -11848,7 +11848,17 @@
 			"GgD/H8aY+pl6he6vAAAAAElFTkSuQmCC"
 		)
 	)
-	(label "20A_pre_switch"
+	(label "16V_motor"
+		(at 137.16 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7077923e-bb5d-491a-b7bf-b9ddc6537b7e")
+	)
+	(label "16V_pre-switch"
 		(at 49.53 38.1 0)
 		(effects
 			(font
@@ -11857,6 +11867,26 @@
 			(justify left bottom)
 		)
 		(uuid "7fc0d6e6-6bf6-453c-abc1-4eb9a8a7c59d")
+	)
+	(label "GND_IGBT"
+		(at 228.6 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ef3f506-98f6-4f20-8913-be0b8ff3e0de")
+	)
+	(label "16V_post-switch"
+		(at 62.23 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb7e794a-6c97-46bf-97c6-1c26fd8bb6fa")
 	)
 	(global_label "VBAT_sense"
 		(shape input)
@@ -11904,7 +11934,7 @@
 	)
 	(global_label "VBAT_sense"
 		(shape input)
-		(at 161.29 52.07 0)
+		(at 170.18 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11914,7 +11944,7 @@
 		)
 		(uuid "54726ac0-6a1f-44a8-b2aa-7a053ccd77d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.04 52.07 0)
+			(at 183.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14571,7 +14601,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6a2c28d4-53b1-47fd-a793-9a2d06f9d0e3")
 		(property "Reference" "U2"
 			(at 90.17 29.21 0)
@@ -14582,7 +14611,7 @@
 			)
 		)
 		(property "Value" "Current_sens_ACS712ELCTR-20A-T"
-			(at 90.17 31.75 0)
+			(at 95.504 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14857,28 +14886,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "42fdc43b-51e9-4d3d-a4a0-27552bcd1f8a")
+			(uuid "42fdc43b-51e9-4d3d-a4a0-27552bcd1f8b")
 		)
 		(pin "5"
-			(uuid "ebfba54b-80f9-40c6-b5bc-3e4f7ad3940e")
+			(uuid "ebfba54b-80f9-40c6-b5bc-3e4f7ad39410")
 		)
 		(pin "2"
 			(uuid "58e74826-b79c-4519-8863-b29a1e6d4de2")
 		)
 		(pin "6"
-			(uuid "79357090-a0b1-4258-bc37-d7df116db09f")
+			(uuid "79357090-a0b1-4258-bc37-d7df116db0a1")
 		)
 		(pin "3"
 			(uuid "0e4982a3-3a38-41c7-9316-a4e8137dbd6d")
 		)
 		(pin "7"
-			(uuid "07abb248-9436-4e3b-9f61-8c007ab200dc")
+			(uuid "07abb248-9436-4e3b-9f61-8c007ab200de")
 		)
 		(pin "1"
 			(uuid "49d4004d-dfca-485f-a3fc-a471005e6e36")
 		)
 		(pin "4"
-			(uuid "427a706f-a686-4297-856c-6e9bc739de85")
+			(uuid "427a706f-a686-4297-856c-6e9bc739de86")
 		)
 		(instances
 			(project "ABRARACOURCIX_main_board"
@@ -15278,28 +15307,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "42fdc43b-51e9-4d3d-a4a0-27552bcd1f8b")
+			(uuid "42fdc43b-51e9-4d3d-a4a0-27552bcd1f8d")
 		)
 		(pin "5"
-			(uuid "ebfba54b-80f9-40c6-b5bc-3e4f7ad3940f")
+			(uuid "ebfba54b-80f9-40c6-b5bc-3e4f7ad39411")
 		)
 		(pin "2"
-			(uuid "a7ef9d3b-09f3-4eb4-9cd5-4152bc3aefc7")
+			(uuid "a7ef9d3b-09f3-4eb4-9cd5-4152bc3aefc9")
 		)
 		(pin "6"
-			(uuid "79357090-a0b1-4258-bc37-d7df116db0a0")
+			(uuid "79357090-a0b1-4258-bc37-d7df116db0a2")
 		)
 		(pin "3"
-			(uuid "8d40cf67-2cff-4218-82ea-f7a14627e7a0")
+			(uuid "8d40cf67-2cff-4218-82ea-f7a14627e7a2")
 		)
 		(pin "7"
-			(uuid "07abb248-9436-4e3b-9f61-8c007ab200dd")
+			(uuid "07abb248-9436-4e3b-9f61-8c007ab200df")
 		)
 		(pin "1"
-			(uuid "43ae0ab8-e612-4fed-a934-062919b9e6f2")
+			(uuid "43ae0ab8-e612-4fed-a934-062919b9e6f4")
 		)
 		(pin "4"
-			(uuid "427a706f-a686-4297-856c-6e9bc739de86")
+			(uuid "427a706f-a686-4297-856c-6e9bc739de88")
 		)
 		(instances
 			(project ""
@@ -16912,28 +16941,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "42fdc43b-51e9-4d3d-a4a0-27552bcd1f8c")
+			(uuid "42fdc43b-51e9-4d3d-a4a0-27552bcd1f8e")
 		)
 		(pin "5"
-			(uuid "ebfba54b-80f9-40c6-b5bc-3e4f7ad39410")
+			(uuid "ebfba54b-80f9-40c6-b5bc-3e4f7ad39412")
 		)
 		(pin "2"
-			(uuid "a7ef9d3b-09f3-4eb4-9cd5-4152bc3aefc8")
+			(uuid "a7ef9d3b-09f3-4eb4-9cd5-4152bc3aefca")
 		)
 		(pin "6"
-			(uuid "79357090-a0b1-4258-bc37-d7df116db0a1")
+			(uuid "79357090-a0b1-4258-bc37-d7df116db0a3")
 		)
 		(pin "3"
-			(uuid "8d40cf67-2cff-4218-82ea-f7a14627e7a1")
+			(uuid "8d40cf67-2cff-4218-82ea-f7a14627e7a3")
 		)
 		(pin "7"
-			(uuid "07abb248-9436-4e3b-9f61-8c007ab200de")
+			(uuid "07abb248-9436-4e3b-9f61-8c007ab200e0")
 		)
 		(pin "1"
-			(uuid "43ae0ab8-e612-4fed-a934-062919b9e6f3")
+			(uuid "43ae0ab8-e612-4fed-a934-062919b9e6f5")
 		)
 		(pin "4"
-			(uuid "427a706f-a686-4297-856c-6e9bc739de87")
+			(uuid "427a706f-a686-4297-856c-6e9bc739de89")
 		)
 		(instances
 			(project ""
