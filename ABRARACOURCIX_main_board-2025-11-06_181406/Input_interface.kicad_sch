@@ -1952,7 +1952,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "272ef141-b249-4c07-906f-d3d8a9d39614")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR019"
 			(at 69.85 161.29 0)
 			(effects
 				(font
@@ -2003,7 +2003,7 @@
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "#PWR021")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2019,7 +2019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36dd6739-f328-4607-bf5f-3efcbe2bc905")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 71.12 69.85 0)
 			(effects
 				(font
@@ -2069,7 +2069,7 @@
 		(instances
 			(project ""
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -2085,7 +2085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "382e49a6-e633-4713-a424-9bfb3dda9fa3")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR015"
 			(at 71.12 101.6 0)
 			(effects
 				(font
@@ -2135,7 +2135,7 @@
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "#PWR019")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2151,7 +2151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d1f67c5-b583-4427-81c4-fc5938714e6d")
-		(property "Reference" "#J6"
+		(property "Reference" "#J2"
 			(at 37.465 125.73 0)
 			(effects
 				(font
@@ -2209,7 +2209,7 @@
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "#J6")
+					(reference "#J2")
 					(unit 1)
 				)
 			)
@@ -2226,7 +2226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59f8a257-94c1-43e2-8267-87e55106c12b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR011"
 			(at 63.5 31.75 0)
 			(effects
 				(font
@@ -2276,7 +2276,7 @@
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "#PWR015")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2361,7 +2361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9903075a-c794-4b01-9ad5-78dc45bad6d3")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR016"
 			(at 71.12 107.95 0)
 			(effects
 				(font
@@ -2412,7 +2412,7 @@
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "#PWR020")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2429,7 +2429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c06c235d-2d5a-49fd-a07f-5be0b46c1c95")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR012"
 			(at 63.5 48.26 0)
 			(effects
 				(font
@@ -2480,7 +2480,7 @@
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "#PWR024")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -2496,7 +2496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c105712a-65bd-4db8-8088-171f32f34167")
-		(property "Reference" "#R3"
+		(property "Reference" "#R1"
 			(at 72.39 139.6999 0)
 			(effects
 				(font
@@ -2550,7 +2550,7 @@
 		(instances
 			(project ""
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "#R3")
+					(reference "#R1")
 					(unit 1)
 				)
 			)
@@ -2567,7 +2567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c515f9ee-de4f-49ba-86ba-ff1343b6a83e")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 54.61 34.29 0)
 			(effects
 				(font
@@ -2639,7 +2639,7 @@
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2788,7 +2788,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee7e36f7-0313-45ac-b95c-ba495b3bc4b1")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 52.07 106.426 0)
 			(effects
 				(font
@@ -2854,7 +2854,7 @@
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2870,7 +2870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef6ed6d4-dcd6-4c47-b92b-11da77c7b6fd")
-		(property "Reference" "#R4"
+		(property "Reference" "#R2"
 			(at 72.39 149.8599 0)
 			(effects
 				(font
@@ -2924,7 +2924,7 @@
 		(instances
 			(project ""
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "#R4")
+					(reference "#R2")
 					(unit 1)
 				)
 			)
@@ -2941,7 +2941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff38b021-7368-4be0-b278-e6aaaf3c5540")
-		(property "Reference" "#J4"
+		(property "Reference" "#J1"
 			(at 53.975 60.96 0)
 			(effects
 				(font
@@ -2999,7 +2999,7 @@
 		(instances
 			(project ""
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
-					(reference "#J4")
+					(reference "#J1")
 					(unit 1)
 				)
 			)
