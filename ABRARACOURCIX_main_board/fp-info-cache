@@ -1,4 +1,4 @@
-26668064418978261
+26682208979533817
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70588,6 +70588,34 @@ AZ1117CH-3.3TRG1
 4
 4
 Librairie_footprint
+Abraracourcix
+
+
+0
+0
+0
+Librairie_footprint
+Abraracourcix_moyen
+
+
+0
+0
+0
+Librairie_footprint
+Abraracourcix_negatif
+
+
+0
+0
+0
+Librairie_footprint
+Abraracourcix_petit
+
+
+0
+0
+0
+Librairie_footprint
 BNO055_LGA28R50P4X10_380X520X100
 
 
@@ -70601,6 +70629,20 @@ Buck_breakout_Xl4015
 0
 4
 4
+Librairie_footprint
+CAP_MU_15750_RUB-L
+
+25MU106MD15750 
+0
+2
+2
+Librairie_footprint
+CAP_R533W520050P0K_KEM
+
+R533W520050P0K 
+0
+2
+2
 Librairie_footprint
 Current_sens_SOIC127P600X175-8N
 
@@ -70651,12 +70693,26 @@ LT1529CQ_5_PBF-DDPAK-5_Q
 6
 6
 Librairie_footprint
+MTA_100_2pos
+
+
+0
+2
+2
+Librairie_footprint
 QFP50P2200X2200X160-144N
 
 
 0
 144
 144
+Librairie_footprint
+R60-CC_KEM
+
+R60DN5100AA30K 
+0
+2
+2
 Librairie_footprint
 Relai_30A_T9GV1L14-5_TEC
 
