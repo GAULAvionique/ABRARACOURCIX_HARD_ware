@@ -3532,12 +3532,6 @@
 		(uuid "0aef555c-ae37-4fb9-9c88-0cc19064ede2")
 	)
 	(junction
-		(at 232.41 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10c6204c-4b54-4ad4-8d16-f808b057fac0")
-	)
-	(junction
 		(at 207.01 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3614,6 +3608,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8909d781-0a0d-4593-ba0a-f2fda13c8256")
+	)
+	(junction
+		(at 232.41 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91cb60b5-6256-4917-af11-339e2f349e68")
 	)
 	(junction
 		(at 142.24 68.58)
@@ -3929,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 140.97) (xy 232.41 140.97)
+			(xy 214.63 140.97) (xy 232.41 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4499,6 +4499,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 140.97) (xy 237.49 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88e5dda-0741-4785-989d-561dc2ca6844")
+	)
+	(wire
+		(pts
 			(xy 228.6 55.88) (xy 228.6 57.15)
 		)
 		(stroke
@@ -4506,16 +4516,6 @@
 			(type default)
 		)
 		(uuid "fa2ef476-dd40-40d9-985e-bd9d666ca4fc")
-	)
-	(wire
-		(pts
-			(xy 214.63 140.97) (xy 232.41 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe800b78-1db4-452c-a41e-949d65f7b36e")
 	)
 	(wire
 		(pts
@@ -4680,7 +4680,7 @@
 		)
 	)
 	(image
-		(at -67.3509 100.9389)
+		(at -69.8909 80.6189)
 		(scale 0.723621)
 		(uuid "25c8aeda-30f6-45fe-9561-06126b08b12b")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAskAAAGQCAIAAADTPmoYAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -11183,7 +11183,7 @@
 		)
 	)
 	(image
-		(at -68.58 180.34)
+		(at -69.85 160.02)
 		(scale 0.710415)
 		(uuid "a7d8f51c-c457-4857-a7f7-3983baac640c")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAtkAAAGqCAIAAABRcc87AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -12120,7 +12120,7 @@
 				)
 			)
 		)
-		(property "Value" "40k"
+		(property "Value" "40.2k"
 			(at 52.07 134.62 90)
 			(effects
 				(font
@@ -12137,7 +12137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 52.07 138.43 0)
 			(effects
 				(font
@@ -12147,6 +12147,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 52.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-FX-4022ELF/2563031"
+			(at 52.07 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "118-CR1206-FX-4022ELFCT-ND"
 			(at 52.07 138.43 0)
 			(effects
 				(font
@@ -12272,7 +12290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 110.49 125.73 0)
 			(effects
 				(font
@@ -12282,6 +12300,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-303ELF/3785592"
+			(at 110.49 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "118-CR1206-JW-303ELFCT-ND"
 			(at 110.49 125.73 0)
 			(effects
 				(font
@@ -12434,6 +12470,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" "NTR4101PT1GOSCT-ND"
+			(at 209.55 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "C"
 			(uuid "7d117a00-d8a5-4711-a1c6-678281b2ec59")
 		)
@@ -12555,7 +12600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 242.57 113.03 0)
 			(effects
 				(font
@@ -12565,6 +12610,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 242.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/walsin-technology-corporation/1206X226M160CT/9341705"
+			(at 242.57 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "1292-1206X226M160CT-ND"
 			(at 242.57 113.03 0)
 			(effects
 				(font
@@ -12761,80 +12824,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 262.89 50.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1399d578-2f61-44df-919e-991d7bea383e")
-		(property "Reference" "R10"
-			(at 262.89 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k5"
-			(at 262.89 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 262.89 52.578 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 262.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 262.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a4d3592c-fd8f-470d-a702-26aac8a08123")
-		)
-		(pin "1"
-			(uuid "6fccdab2-676b-41c1-9122-8425abc39df6")
-		)
-		(instances
-			(project "ABRARACOURCIX_main_board"
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 201.93 140.97 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "147becad-3b3d-4739-80ae-69efdd967c8f")
@@ -12883,6 +12878,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 201.93 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abfbd20d-c76f-4a79-bb55-82f3d0956b52")
 		)
@@ -12904,7 +12917,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "17c8a39e-e8b6-4225-b88a-235cebe94dee")
@@ -13074,6 +13087,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 38.1 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df2cefc5-2614-4911-8c52-021ef7a12243")
 		)
@@ -13126,7 +13157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 53.34 114.3 0)
 			(effects
 				(font
@@ -13136,6 +13167,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-303ELF/3785592"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "118-CR1206-JW-303ELFCT-ND"
 			(at 53.34 114.3 0)
 			(effects
 				(font
@@ -13196,7 +13245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 228.6 52.07 0)
 			(effects
 				(font
@@ -13206,6 +13255,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 228.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-103ELF/3741050"
+			(at 228.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-103ELFCT-ND"
 			(at 228.6 52.07 0)
 			(effects
 				(font
@@ -13224,6 +13291,92 @@
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 262.89 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2596bb59-b20f-4954-9047-e80a4b7a494d")
+		(property "Reference" "R10"
+			(at 262.89 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k5"
+			(at 262.89 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 262.89 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-152ELF/3785541"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-152ELFCT-ND"
+			(at 262.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "976d1159-69ac-4210-adde-1d8c3dd70f1b")
+		)
+		(pin "1"
+			(uuid "09ae9665-6d62-4d0e-940d-d947a7de33d6")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13264,7 +13417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 105.41 118.11 0)
 			(effects
 				(font
@@ -13274,6 +13427,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 105.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-103ELF/3741050"
+			(at 105.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-103ELFCT-ND"
 			(at 105.41 118.11 0)
 			(effects
 				(font
@@ -13332,7 +13503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 45.72 110.49 0)
 			(effects
 				(font
@@ -13342,6 +13513,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-103ELF/3741050"
+			(at 45.72 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-103ELFCT-ND"
 			(at 45.72 110.49 0)
 			(effects
 				(font
@@ -13432,6 +13621,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 232.41 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ae832e6-d7ff-4bce-aafe-fc490651796b")
+		(property "Reference" "C21"
+			(at 236.22 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 236.22 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 233.3752 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/walsin-technology-corporation/1206X226M160CT/9341705"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "1292-1206X226M160CT-ND"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c28afcfd-342d-4335-858c-bf35519cb860")
+		)
+		(pin "2"
+			(uuid "670897c0-67f4-42ef-b60f-4b867a2b1128")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:BZV55C18")
 		(at 149.86 63.5 270)
 		(unit 1)
@@ -13486,7 +13763,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "SZMMSZ4679T1GOSCT-ND"
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/onsemi/SZMMSZ4679T1G/5404986?s=N4IgTCBcDaIMoC0CyTEBYBsB2AnAFQEYBxAeTgGE8BaAOQBEQBdAXyA"
+			(at 149.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "SZMMSZ4679T1GOSCT-ND"
 			(at 149.86 63.5 0)
 			(effects
 				(font
@@ -13581,7 +13867,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "49da7085-5906-497e-991c-399508ff1d85")
@@ -13748,6 +14034,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 217.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 217.17 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14340,7 +14644,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "623ec8e2-f0eb-4f08-9487-021d6815450b")
@@ -14510,6 +14814,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 57.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c46d8d6-8d1e-46a5-8ed2-9a5d0b943349")
 		)
@@ -14560,7 +14882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 114.3 44.45 0)
 			(effects
 				(font
@@ -14570,6 +14892,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-103ELF/3741050"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-103ELFCT-ND"
 			(at 114.3 44.45 0)
 			(effects
 				(font
@@ -14628,7 +14968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.allegromicro.com/~/media/Files/Datasheets/ACS712-Datasheet.ashx"
 			(at 90.17 46.99 0)
 			(effects
 				(font
@@ -14637,7 +14977,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CURRENT SENSOR HE/OL 20A 8-SOIC"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/allegro-microsystems/ACS712ELCTR-20A-T/1284594?s=N4IgTCBcDaIIIGEDKB2AjGAogGQQFQCUBaMABjiLxAF0BfIA"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "620-1190-1-ND"
 			(at 90.17 46.99 0)
 			(effects
 				(font
@@ -14674,76 +15032,6 @@
 			(project ""
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 232.41 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6dfb2737-4204-4f81-8078-6855c45cf3c8")
-		(property "Reference" "C21"
-			(at 236.22 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 236.22 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 233.3752 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 232.41 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2703342a-6823-4ce8-b40e-c82b4faaee99")
-		)
-		(pin "2"
-			(uuid "e45e480d-978a-4763-813e-b8dd231bfb53")
-		)
-		(instances
-			(project ""
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/c4ad4264-b73c-4c04-b9c5-57ed4ad7be7c"
-					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -14953,7 +15241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 105.41 113.03 0)
 			(effects
 				(font
@@ -14963,6 +15251,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-103ELF/3741050"
+			(at 105.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-103ELFCT-ND"
 			(at 105.41 113.03 0)
 			(effects
 				(font
@@ -15023,7 +15329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 107.95 52.07 0)
 			(effects
 				(font
@@ -15033,6 +15339,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/walsin-technology-corporation/1206B102K500CT/9355095"
+			(at 107.95 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "1292-1598-1-ND"
 			(at 107.95 52.07 0)
 			(effects
 				(font
@@ -15136,8 +15460,17 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "NTR4101PT1GOSCT-ND"
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/onsemi/NTR4101PT1G/687096?s=N4IgTCBcDaIHIBUBKAWAjABjQBQWg4gPIDKAwggLRwAiIAugL5A"
 			(at 128.27 54.864 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "NTR4101PT1GOSCT-ND"
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15200,7 +15533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 248.92 36.83 0)
 			(effects
 				(font
@@ -15210,6 +15543,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-103ELF/3741050"
+			(at 248.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-103ELFCT-ND"
 			(at 248.92 36.83 0)
 			(effects
 				(font
@@ -15560,6 +15911,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" "DSS20201LDICT-ND"
+			(at 251.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "C"
 			(uuid "64398b25-dd44-4f52-85ad-2b809a667f04")
 		)
@@ -15597,7 +15957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 64.77 49.5299 0)
 			(effects
 				(font
@@ -15615,7 +15975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 68.58 48.26 0)
 			(effects
 				(font
@@ -15625,6 +15985,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/walsin-technology-corporation/1206B104K500CT/9355102"
+			(at 68.58 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "1292-1605-1-ND"
 			(at 68.58 48.26 0)
 			(effects
 				(font
@@ -15748,7 +16126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 242.57 40.64 0)
 			(effects
 				(font
@@ -15758,6 +16136,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-152ELF/3785541"
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-152ELFCT-ND"
 			(at 242.57 40.64 0)
 			(effects
 				(font
@@ -15827,7 +16223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 100K OHM 5% 1/4W 1206"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -15836,7 +16232,16 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "  541-100KUTR-ND"
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-104ELF/3741051"
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-104ELFCT-ND"
 			(at 142.24 73.66 0)
 			(effects
 				(font
@@ -15970,7 +16375,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3 LDO"
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/diodes-incorporated/AZ1117CH-3-3TRG1/4470985?s=N4IgTCBcDaIIIC0CMKDsBhAEgWgMwDpcAVAJQHEkQBdAXyA"
+			(at 232.41 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "AZ1117CH-3.3TRG1DICT-ND"
 			(at 232.41 111.76 0)
 			(effects
 				(font
@@ -16103,7 +16526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 119.38 50.8 0)
 			(effects
 				(font
@@ -16112,7 +16535,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 20K OHM 5% 1/4W 1206"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-203ELF/3785565"
+			(at 119.38 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "118-CR1206-JW-203ELFCT-ND"
 			(at 119.38 50.8 0)
 			(effects
 				(font
@@ -16238,7 +16679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://s3-us-west-2.amazonaws.com/catsy.557/C18654.pdf"
 			(at 259.08 120.65 0)
 			(effects
 				(font
@@ -16267,6 +16708,15 @@
 		)
 		(property "Digikey" "https://www.digikey.ca/en/products/detail/dialight/599-0410-127F/21710495"
 			(at 259.08 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "350-599-0410-127FCT-ND"
+			(at 259.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16326,7 +16776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 59.69 142.24 0)
 			(effects
 				(font
@@ -16336,6 +16786,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-103ELF/3741050"
+			(at 59.69 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-103ELFCT-ND"
 			(at 59.69 142.24 0)
 			(effects
 				(font
@@ -16396,7 +16864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 73.66 142.24 0)
 			(effects
 				(font
@@ -16406,6 +16874,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/walsin-technology-corporation/1206B105K250CT/15986617"
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "1292-1206B105K250CT-ND"
 			(at 73.66 142.24 0)
 			(effects
 				(font
@@ -16529,7 +17015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -16539,6 +17025,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-303ELF/3785592"
+			(at 121.92 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "118-CR1206-JW-303ELFCT-ND"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -16718,6 +17222,15 @@
 				(hide yes)
 			)
 		)
+		(property "Part number" "DSS20200LDICT-ND"
+			(at 231.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "C"
 			(uuid "74202b9f-71b3-488f-ae65-1aaef7938290")
 		)
@@ -16741,7 +17254,7 @@
 		(at 209.55 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16781,6 +17294,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 209.55 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 209.55 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
 			(at 209.55 140.97 0)
 			(effects
 				(font
@@ -17009,7 +17540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 176.53 113.03 0)
 			(effects
 				(font
@@ -17019,6 +17550,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/walsin-technology-corporation/1206X106K250CT/14836856"
+			(at 176.53 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "1292-1206X106K250CT-ND"
 			(at 176.53 113.03 0)
 			(effects
 				(font
@@ -17387,7 +17936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "40"
+		(property "Value" "40.2"
 			(at 261.62 114.2999 0)
 			(effects
 				(font
@@ -17405,7 +17954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 259.08 113.03 0)
 			(effects
 				(font
@@ -17415,6 +17964,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 259.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-FX-40R2ELF/2563034"
+			(at 259.08 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "118-CR1206-FX-40R2ELFCT-ND"
 			(at 259.08 113.03 0)
 			(effects
 				(font

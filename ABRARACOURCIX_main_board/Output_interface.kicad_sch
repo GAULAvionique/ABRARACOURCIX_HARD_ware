@@ -1561,13 +1561,14 @@
 		)
 		(uuid "39f84cbb-6266-41c6-9003-50c027f3c5a1")
 	)
-	(text "Film capacitor\nB32522C0106K000\nhttps://www.digikey.ca/en/products/detail/epcos-tdk-electronics/B32522C0106K000/2060953\n"
+	(text "Film capacitor\n"
 		(exclude_from_sim no)
-		(at 59.69 105.41 0)
+		(at 38.1 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "4e16ff13-2faa-46a6-85b4-70aa7ed046ea")
 	)
@@ -2207,78 +2208,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 88.9 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0eb9b7d1-86ba-4f9b-ae38-3a03cb51a3e0")
-		(property "Reference" "J6"
-			(at 89.408 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 89.916 113.284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 88.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 88.9 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f481b807-9b36-4e9e-a1c0-dbdbe800be89")
-		)
-		(pin "3"
-			(uuid "99fc71b8-3f94-4bf2-8d09-2ef7d1f04d02")
-		)
-		(pin "2"
-			(uuid "9e6ed44d-5792-443f-94cb-38a7a7a3b70a")
-		)
-		(instances
-			(project "ABRARACOURCIX_main_board"
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f5120b67-a5cd-4c16-9638-751b3f9906f3"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 77.47 69.85 0)
 		(unit 1)
@@ -2346,15 +2275,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 73.66 143.51 0)
+		(at 88.9 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "18ccf233-6aea-4845-badf-6f4cb0ba0689")
-		(property "Reference" "J7"
-			(at 84.582 141.478 0)
+		(uuid "18a1095a-0169-4abb-bdf0-0f84aa2451d9")
+		(property "Reference" "J4"
+			(at 89.408 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2292,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 83.312 144.018 0)
+			(at 89.916 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2301,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 73.66 143.51 0)
+			(at 88.9 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2310,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 143.51 0)
+			(at 88.9 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2319,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 73.66 143.51 0)
+			(at 88.9 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,19 +2327,37 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a1fb450a-6324-4e90-a853-b2f6ee2f01dc")
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9960345/3728209"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "08e2cceb-451a-4f1a-813e-98745fdb41cf")
+		(property "Part number" "M20-9960345"
+			(at 88.9 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "1254ebcc-cba2-406d-b927-9ea649bfc04b")
+			(uuid "54349112-3ab2-4938-8706-2d4cba0cf73d")
+		)
+		(pin "3"
+			(uuid "ce8e1abb-2f54-45ec-a7a4-16a4528d6a3c")
+		)
+		(pin "2"
+			(uuid "93c83b55-0480-4ef4-aa11-d0732e9143d1")
 		)
 		(instances
-			(project ""
+			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f5120b67-a5cd-4c16-9638-751b3f9906f3"
-					(reference "J7")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2753,78 +2700,6 @@
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f5120b67-a5cd-4c16-9638-751b3f9906f3"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 88.9 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "591f90d7-e6e6-41ff-9f64-9a4409760005")
-		(property "Reference" "J5"
-			(at 89.408 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03_Socket"
-			(at 89.916 87.884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 88.9 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 88.9 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9de6c37-8f25-4df6-9303-3334922d113b")
-		)
-		(pin "3"
-			(uuid "33f3e2dd-cae1-4af4-b9cd-cb33d4bc00de")
-		)
-		(pin "2"
-			(uuid "386c2d75-179c-4406-95e1-fabf0f50f139")
-		)
-		(instances
-			(project "ABRARACOURCIX_main_board"
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f5120b67-a5cd-4c16-9638-751b3f9906f3"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3191,6 +3066,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9960345/3728209"
+			(at 88.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "M20-9960345"
+			(at 88.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27fd8ed7-520a-47a3-b7cc-6be63652937b")
 		)
@@ -3355,15 +3248,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 88.9 69.85 0)
+		(at 73.66 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a1ac25c5-9282-4763-abbf-84f858b325b2")
-		(property "Reference" "J4"
-			(at 89.408 64.77 0)
+		(uuid "b4308a84-b64c-475e-aab7-d8c6bae87728")
+		(property "Reference" "J7"
+			(at 74.168 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3372,7 +3265,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Socket"
-			(at 89.916 62.484 0)
+			(at 74.676 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3274,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
-			(at 88.9 69.85 0)
+			(at 73.66 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3390,7 +3283,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 69.85 0)
+			(at 73.66 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3399,7 +3292,25 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 88.9 69.85 0)
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9960345/3728209"
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "M20-9960345"
+			(at 73.66 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,18 +3319,108 @@
 			)
 		)
 		(pin "1"
-			(uuid "5b70c5ba-2f57-4506-929c-b80d139bba49")
+			(uuid "4ae93cca-1c8a-4f9f-8a93-89fdf86cbc49")
 		)
 		(pin "3"
-			(uuid "fd5470b8-774a-4c11-9d52-020c52958988")
+			(uuid "5b5ddbf1-542a-40b7-90ed-c8ff689094c7")
 		)
 		(pin "2"
-			(uuid "d0d51c59-80d1-42dd-9b1d-fa235664337f")
+			(uuid "3189087c-bbf9-4af0-9163-4b29a01554c8")
 		)
 		(instances
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f5120b67-a5cd-4c16-9638-751b3f9906f3"
-					(reference "J4")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 88.9 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccbeb1b5-86cf-455e-9233-1d9fa787a045")
+		(property "Reference" "J6"
+			(at 89.408 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 89.916 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9960345/3728209"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "M20-9960345"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e1a989-ae52-41f2-ad0d-da83c9e4f1fb")
+		)
+		(pin "3"
+			(uuid "12e50b1d-4c5b-4490-8ca4-6922d017e508")
+		)
+		(pin "2"
+			(uuid "f8819866-45af-4d59-9f02-bfc2ea41d074")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f5120b67-a5cd-4c16-9638-751b3f9906f3"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3498,6 +3499,96 @@
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f5120b67-a5cd-4c16-9638-751b3f9906f3"
 					(reference "BUZ_D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 88.9 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3a0e361-f1c1-4a28-9113-ed6ba124cbbf")
+		(property "Reference" "J5"
+			(at 89.408 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 89.916 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/harwin-inc/M20-9960345/3728209"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "M20-9960345"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cd0375b-602b-4f26-9f7b-34bd380ae898")
+		)
+		(pin "3"
+			(uuid "9ac98b45-037d-47a7-af4e-d4e14a8306e1")
+		)
+		(pin "2"
+			(uuid "0f1c0e4c-d547-4ad1-8704-84985f09e46a")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f5120b67-a5cd-4c16-9638-751b3f9906f3"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3606,7 +3697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-pmlcap/MU.pdf"
 			(at 44.45 81.28 0)
 			(effects
 				(font
@@ -3615,7 +3706,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized film capacitor"
+			(at 44.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/rubycon/16MU106MC44532/4969517"
+			(at 44.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "1189-2511-6-ND"
 			(at 44.45 81.28 0)
 			(effects
 				(font

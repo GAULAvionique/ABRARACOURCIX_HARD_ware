@@ -6418,6 +6418,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 68.58 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36af54be-c300-439b-b9f1-b2bc3c44ec49")
 		)

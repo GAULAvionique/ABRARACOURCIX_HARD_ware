@@ -111,7 +111,7 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
 			(outputdirectory "")
 		)
@@ -10428,7 +10428,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3v3 LDO"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

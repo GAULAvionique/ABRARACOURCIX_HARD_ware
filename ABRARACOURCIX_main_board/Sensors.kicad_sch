@@ -4870,7 +4870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
 			(at 138.43 45.72 0)
 			(effects
 				(font
@@ -4880,6 +4880,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/walsin-technology-corporation/1206B104K500CT/9355102"
+			(at 138.43 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "1292-1605-1-ND"
 			(at 138.43 45.72 0)
 			(effects
 				(font
@@ -4938,7 +4956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 			(at 165.1 97.79 0)
 			(effects
 				(font
@@ -4948,6 +4966,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/kemet/C1206C220K1GACTU/2215429"
+			(at 165.1 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "399-C1206C220K1GACTUCT-ND"
 			(at 165.1 97.79 0)
 			(effects
 				(font
@@ -5098,76 +5134,6 @@
 			(project "ABRARACOURCIX_main_board"
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 146.05 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4250e859-8d75-4cc6-b1c3-0dee49350a58")
-		(property "Reference" "C13"
-			(at 149.86 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1uF"
-			(at 149.86 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 145.0848 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "307cdd13-a359-48b9-9e01-ccbd5f653fab")
-		)
-		(pin "1"
-			(uuid "fffa24cb-f508-44fd-a36b-f06834deb1a5")
-		)
-		(instances
-			(project "ABRARACOURCIX_main_board"
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5406,7 +5372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 134.62 106.68 0)
 			(effects
 				(font
@@ -5416,6 +5382,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-102ELF/3785514"
+			(at 134.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "118-CR1206-JW-102ELFCT-ND"
 			(at 134.62 106.68 0)
 			(effects
 				(font
@@ -5475,7 +5459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bno055-ds000.pdf"
 			(at 166.37 58.42 0)
 			(effects
 				(font
@@ -5484,7 +5468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inertial Measurement Unit"
 			(at 166.37 58.42 0)
 			(effects
 				(font
@@ -5500,6 +5484,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bosch-sensortec/BNO055/6136301"
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "828-1058-1-ND"
+			(at 166.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5570,6 +5572,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 120.65 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70ad485e-aa9f-4d41-bcf4-bd4fed857856")
+		(property "Reference" "R3"
+			(at 123.19 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 123.19 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 118.872 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-103ELF/3741050"
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-103ELFCT-ND"
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "987b8734-0570-4092-b045-58f49df1c23b")
+		)
+		(pin "1"
+			(uuid "8afc1a03-8be7-46e4-8842-cd983c6b98a0")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 190.5 73.66 0)
 		(unit 1)
@@ -5630,76 +5720,6 @@
 			(project ""
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "886ed66f-c567-40f9-b2e3-878e3b18d53d")
-		(property "Reference" "R3"
-			(at 123.19 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 123.19 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 118.872 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4cae6676-47dc-4e22-8a2e-76a918b27034")
-		)
-		(pin "1"
-			(uuid "be022956-84c5-450f-91a4-afb4bc3f3cc7")
-		)
-		(instances
-			(project "ABRARACOURCIX_main_board"
-				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5777,7 +5797,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ad34397f-9bed-43fe-a54d-aabdb457a9f5")
@@ -5818,6 +5838,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -5876,7 +5914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://abracon.com/Resonators/ABS07.pdf"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -5885,7 +5923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CRYSTAL 32.7680KHZ 12.5PF SMD"
 			(at 170.18 104.14 0)
 			(effects
 				(font
@@ -5931,6 +5969,24 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/abracon-llc/ABS07-32-768KHZ-T/1236858"
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "535-9542-1-ND"
+			(at 170.18 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5986,7 +6042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 130.81 49.53 0)
 			(effects
 				(font
@@ -5996,6 +6052,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 130.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-103ELF/3741050"
+			(at 130.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "CR1206-JW-103ELFCT-ND"
 			(at 130.81 49.53 0)
 			(effects
 				(font
@@ -6024,7 +6098,7 @@
 		(at 129.54 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cebd1b20-1f19-4d36-a507-bf1398b89a5a")
@@ -6065,6 +6139,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 129.54 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
 			(at 129.54 107.95 0)
 			(effects
 				(font
@@ -6220,16 +6312,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 110.49 90)
-		(mirror x)
+		(at 165.1 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e993cf11-cbe7-4946-add5-3d54221f4053")
+		(fields_autoplaced yes)
+		(uuid "f6c301c4-fedb-416b-86c5-2f518d7ba539")
 		(property "Reference" "C15"
-			(at 165.1 118.11 90)
+			(at 165.1 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6329,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 165.1 115.57 90)
+			(at 165.1 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6337,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 168.91 111.4552 0)
+			(at 161.29 111.4552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1003_C0G_SMD"
 			(at 165.1 110.49 0)
 			(effects
 				(font
@@ -6271,11 +6363,29 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/kemet/C1206C220K1GACTU/2215429"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "399-C1206C220K1GACTUCT-ND"
+			(at 165.1 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "e99c0012-4c3c-4a2c-a83a-da6eab34a925")
+			(uuid "43186e54-a9e7-4ed0-84fe-4b82d8535952")
 		)
 		(pin "1"
-			(uuid "49fe6392-57f7-4345-a60b-3583d2a4da04")
+			(uuid "47332095-78b9-4abe-92b0-34565460ce6e")
 		)
 		(instances
 			(project "ABRARACOURCIX_main_board"
@@ -6321,7 +6431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14"
 			(at 134.62 104.14 0)
 			(effects
 				(font
@@ -6339,6 +6449,24 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/bourns-inc/CR1206-JW-102ELF/3785514"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "118-CR1206-JW-102ELFCT-ND"
+			(at 134.62 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bfdb42f4-c0e9-48eb-a25e-7bf0f7d78c2c")
 		)
@@ -6346,9 +6474,101 @@
 			(uuid "bdbec46b-028c-4977-8e8f-cc2dfc13e9dd")
 		)
 		(instances
-			(project "ABRARACOURCIX_main_board"
+			(project ""
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/6c5d3f5c-4c22-4772-8235-2f35636af7f3"
+					(reference "R4")
+					(unit 1)
+				)
 				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 146.05 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffa67da2-5276-4ffd-af88-464d6202f78f")
+		(property "Reference" "C13"
+			(at 149.86 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 149.86 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 145.0848 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf"
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "https://www.digikey.ca/en/products/detail/walsin-technology-corporation/1206B105K250CT/15986617"
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" "1292-1206B105K250CT-ND"
+			(at 146.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "509cf52c-5256-4ee4-bf12-1db32fd630b9")
+		)
+		(pin "1"
+			(uuid "95797f7d-50cd-41a0-904e-0a63ce0862ad")
+		)
+		(instances
+			(project "ABRARACOURCIX_main_board"
+				(path "/0de7b960-2097-47c8-970c-7acab0ada146/f4e1ef5d-4bd9-40ae-b931-f6e8521ebddf"
+					(reference "C13")
 					(unit 1)
 				)
 			)
