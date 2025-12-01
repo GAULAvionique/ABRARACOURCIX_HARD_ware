@@ -1,15 +1,24 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
-%TF.CreationDate,2025-11-19T22:50:04-05:00*%
+%TF.CreationDate,2025-12-01T00:48:24-05:00*%
 %TF.ProjectId,ABRARACOURCIX_main_board,41425241-5241-4434-9f55-524349585f6d,rev?*%
 %TF.SameCoordinates,Original*%
-%TF.FileFunction,NonPlated,1,2,NPTH*%
+%TF.FileFunction,NonPlated,1,2,NPTH,Drill*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.4) date 2025-11-19 22:50:04*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-12-01 00:48:24*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,3.000000*%
+%TD*%
 G04 APERTURE END LIST*
+D10*
+%TO.C,*%
+X-36000000Y63000000D03*
+X-36000000Y-63000000D03*
+X36000000Y63000000D03*
+X36000000Y-63000000D03*
 M02*
