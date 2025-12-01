@@ -148,23 +148,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.286 -1.27 0)
+			(property "Reference" "U3"
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 1.27 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Librairie_footprint:Buck_breakout_Xl4015"
 				(at 0 0 0)
 				(effects
 					(font
@@ -215,7 +215,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -233,7 +233,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -251,7 +251,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -269,7 +269,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1553,16 +1553,16 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "28bb4274-eac2-4f3b-8dc1-7ad861c77a1a")
 		)
-		(pin ""
+		(pin "3"
 			(uuid "0f8652d8-661d-4acb-ba43-81cc8c8d49da")
 		)
-		(pin ""
+		(pin "4"
 			(uuid "7173a218-8dba-4cd4-8213-1f505ccbef1e")
 		)
-		(pin ""
+		(pin "2"
 			(uuid "4c6e2705-e73c-446a-9bce-d30289ce612e")
 		)
 		(instances
