@@ -3463,6 +3463,16 @@
 		)
 		(uuid "9012d97f-1cfc-45e2-b054-b29841b36461")
 	)
+	(text "100 mV/A et ratio de diviseur de tension de 2/3 "
+		(exclude_from_sim no)
+		(at 99.314 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "99d1f046-124b-4e3e-9d4c-a07a41a942da")
+	)
 	(text "Master switch (off board)"
 		(exclude_from_sim no)
 		(at 59.182 16.51 0)

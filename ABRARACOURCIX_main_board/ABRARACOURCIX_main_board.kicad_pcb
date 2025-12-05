@@ -41069,7 +41069,7 @@
 		(filled_areas_thickness no)
 		(fill yes
 			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
+			(thermal_bridge_width 2)
 			(smoothing fillet)
 		)
 		(polygon

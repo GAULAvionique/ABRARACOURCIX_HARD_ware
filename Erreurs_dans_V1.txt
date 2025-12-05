@@ -1,0 +1,11 @@
+-C11 mauvais footprint
+-Pas de IGBT donc short émetteur et collecteur pour bypass le circuit
+-C21 mauvais footprint
+-silkscreen Q4 en dessous de composante
+-doublons dans la BOM
+-Remplacer les 30k
+-J1 remplacer par un header FEMELLE
+-Grossir les thermal relief pour la puissance
+-polarité à écrire sur J11
+-Brancher pin de interrupt du Bluetooth au mcu
+-Brancher Vref a 3v3 (c'est la référence de tension pour les ADC) avec une res et une inductance.
