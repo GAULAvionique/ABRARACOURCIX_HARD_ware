@@ -9,3 +9,6 @@
 -polarité à écrire sur J11
 -Brancher pin de interrupt du Bluetooth au mcu
 -Brancher Vref a 3v3 (c'est la référence de tension pour les ADC) avec une res et une inductance.
+
+-Vérifier power scheme pour pouvoir débugger et alimenter le drone en même temps
+-Mettre un ordre plus logique pour les servos moteurs
