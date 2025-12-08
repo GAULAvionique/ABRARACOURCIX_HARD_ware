@@ -12,3 +12,7 @@
 
 -Vérifier power scheme pour pouvoir débugger et alimenter le drone en même temps
 -Mettre un ordre plus logique pour les servos moteurs
+
+-Test point pour debug LED
+-Mettre les test points en périphérie pour aider à prober
+
